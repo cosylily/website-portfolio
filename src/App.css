@@ -6,4 +6,31 @@ body {
 }
 .title {
   display: flex;
+  justify-content: space-around;
+}
+.title h2 {
+  font-size: 100px;
+  line-height: 100px;
+  margin: 0 auto;
+}
+header img {
+  padding: 10px;
+}
+header {
+  margin-top: 50px;
+}
+.canvas {
+  max-width: 80%;
+  background-color: white;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  border-radius: 10px;
+}
+button {
+  margin: 30px;
+  text-align: start;
+  display: flex;
+  justify-content: flex-start;
+  padding: 5px;
 }
