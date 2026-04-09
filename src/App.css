@@ -1,8 +1,9 @@
 body {
   background-image: url(/white-checkerboard.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .App {
   text-align: center;
+}
+.title {
+  display: flex;
 }
