@@ -1,8 +1,7 @@
-body {
-  background-image: url(/white-checkerboard.jpeg);
-}
 .App {
   text-align: center;
+  background-image: url(/white-checkerboard.jpeg);
+  padding-top: 40px;
 }
 .title {
   display: flex;
@@ -47,4 +46,19 @@ button:hover {
   border-radius: 10px;
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
+}
+footer {
+  border: 1px solid black;
+  border-bottom: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: white;
+  margin-top: 90px;
+}
+.footertitle {
+  display: flex;
+  justify-content: space-around;
+  width: 30%;
+  margin: 0 auto;
+  padding: 20px;
 }
