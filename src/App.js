@@ -21,9 +21,23 @@ function App() {
           <button>Education</button>
           <button>Certificate</button>
           <button>List of Websites</button>
+          <button>Contact</button>
         </div>
-        <div className="emptyspace"></div>
+        <div className="emptyspace">
+          <div className="introduction">Click any button to learn more</div>
+        </div>
       </div>
+      <footer>
+        <div className="footertitle">
+          <h2>Syafiqah's Portfolio</h2>
+          <img
+            src="logoforportfolio.jpg"
+            alt="self-doodled this logo"
+            height="50px"
+            width="auto"
+          />
+        </div>
+      </footer>
     </div>
   );
 }
