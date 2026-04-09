@@ -1,5 +1,6 @@
 import "./App.css";
 import Footerbottom from "./Bottompage.js";
+import Content from "./Displaycontent.js";
 
 function App() {
   return (
@@ -25,7 +26,9 @@ function App() {
           <button>Contact</button>
         </div>
         <div className="emptyspace">
-          <div className="introduction">Click the button to learn more</div>
+          <div className="introduction">
+            <Content name="about" />
+          </div>
         </div>
       </div>
       <Footerbottom />
