@@ -1,8 +1,10 @@
 import "./App.css";
 import Footerbottom from "./Bottompage.js";
 import Content from "./Displaycontent.js";
+import { useState } from "react";
 
 function App() {
+  let [content, setContent] = useState();
   return (
     <div className="App">
       <header className="title" id="toppage">
@@ -19,21 +21,36 @@ function App() {
       </header>
       <div className="canvas">
         <div className="buttons">
-          <button>About</button>
-          <button>Education</button>
-          <button>Certificate</button>
-          <button>List of Websites</button>
-          <button>Contact</button>
+          <button onClick={changeAbout}>About</button>
+          <button onClick={changeEducation}>Education</button>
+          <button onClick={changeCertificate}>Certificate</button>
+          <button onClick={changeWebsites}>List of Websites</button>
+          <button onClick={changeContact}>Contact</button>
         </div>
         <div className="emptyspace">
           <div className="introduction">
-            <Content name="about" />
+            <Content name={content} />
           </div>
         </div>
       </div>
       <Footerbottom />
     </div>
   );
+  function changeAbout() {
+    setContent("about");
+  }
+  function changeEducation() {
+    setContent("education");
+  }
+  function changeCertificate() {
+    setContent("certificates");
+  }
+  function changeWebsites() {
+    setContent("websites");
+  }
+  function changeContact() {
+    setContent("contacts");
+  }
 }
 
 export default App;
