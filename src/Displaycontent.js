@@ -1,8 +1,9 @@
 import React from "react";
+import About from "./About.js";
 
 export default function DisplayContent(props) {
   if (props.name === "about") {
-    return <div>Yes, this is working</div>;
+    return <About />;
   }
   if (props.name === "education") {
     return <div>education</div>;
