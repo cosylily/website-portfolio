@@ -49,12 +49,14 @@ button:hover {
   width: 100%;
   transition: all ease 0.2s;
 }
+
 .emptyspace {
   margin: 15px;
   padding: 20px;
   border: 1px solid black;
   border-radius: 10px;
 }
+
 footer {
   border: 1px solid black;
   border-bottom: 0px;
