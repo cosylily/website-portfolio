@@ -24,7 +24,7 @@ function App() {
           <button onClick={changeAbout}>About</button>
           <button onClick={changeEducation}>Education</button>
           <button onClick={changeCertificate}>Certificate</button>
-          <button onClick={changeWebsites}>List of Websites</button>
+          <button onClick={changeWebsites}>Websites</button>{" "}
           <button onClick={changeContact}>Contact</button>
         </div>
         <div className="emptyspace">
