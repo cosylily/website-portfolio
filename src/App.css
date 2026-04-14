@@ -3,6 +3,9 @@
   background-image: url(/white-checkerboard.jpeg);
   padding-top: 40px;
 }
+.anchor {
+  anchor-name: --my-anchor;
+}
 .title {
   display: flex;
   justify-content: space-around;
@@ -22,10 +25,34 @@ header {
   max-width: 90%;
   background-color: white;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 20% 80%;
   border-radius: 10px;
   padding: 30px 30px 0 0;
+}
+
+button {
+  margin: 30px 30px 30px 0;
+  display: flex;
+  justify-content: flex-start;
+  border: 0px;
+  padding: 10px 10px 10px 5px;
+  font-size: 20px;
+  background-color: pink;
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  width: 100%;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: pink;
+  width: 100%;
+  transition: all ease 0.2s;
+}
+.buttons {
+  position: absolute;
+  top: 250px;
 }
 .aboutbutton {
   margin-bottom: 0px;
@@ -50,33 +77,13 @@ header {
 .aboutnavi .myhobby:hover {
   border-bottom-right-radius: 10px;
 }
-button {
-  margin: 30px 30px 30px 0;
-  display: flex;
-  justify-content: flex-start;
-  border: 0px;
-  padding: 10px 10px 10px 5px;
-  font-size: 20px;
-  background-color: pink;
-  border-radius: 10px;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-  width: 95%;
-}
-
-button:hover {
-  cursor: pointer;
-  background-color: black;
-  color: pink;
-  width: 100%;
-  transition: all ease 0.2s;
-}
-
 .emptyspace {
   margin: 15px;
+  margin-left: 20%;
   padding: 20px;
   border: 1px solid black;
   border-radius: 10px;
+  width: 80%;
 }
 
 footer {
