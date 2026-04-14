@@ -5,6 +5,7 @@ import { useState } from "react";
 
 function App() {
   let [content, setContent] = useState();
+  let [isAbout, setAbout] = useState(false);
   return (
     <div className="App">
       <header className="title" id="toppage">
@@ -21,7 +22,14 @@ function App() {
       </header>
       <div className="canvas">
         <div className="buttons">
-          <button onClick={changeAbout}>About</button>
+          <button onClick={changeAbout} className="aboutbutton">
+            About
+          </button>
+          <div className={isAbout ? "aboutnavi" : "d-none"}>
+            <button>Introduction</button>
+            <button>Skills</button>
+            <a href="#abouthobby">My hobby</a>
+          </div>
           <button onClick={changeEducation}>Education</button>
           <button onClick={changeCertificate}>Certificate</button>
           <button onClick={changeWebsites}>Websites</button>{" "}
@@ -36,8 +44,10 @@ function App() {
       <Footerbottom />
     </div>
   );
+
   function changeAbout() {
     setContent("about");
+    setAbout(true);
   }
   function changeEducation() {
     setContent("education");

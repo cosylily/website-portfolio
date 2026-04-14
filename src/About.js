@@ -5,7 +5,7 @@ export default function About() {
   return (
     <div className="aboutSection">
       <h2>About Me</h2>
-      <h3>Introduction:</h3>
+      <h3 id="aboutintroduction">Introduction:</h3>
       <p>
         Hello World! My name is Syafiqah, an aspiring junior website developer
         from Malaysia. Before I continue to introduce myself, this website does
@@ -26,7 +26,7 @@ export default function About() {
         portfolio and writing. I am sure that with my skills, I will be able to
         understand your idea and materialise it.
       </p>
-      <h3>Skills:</h3>
+      <h3 id="aboutskills">Skills:</h3>
       <p>
         Technical Skills: HTML, CSS, JavaScript, React.js, Figma, Canva, GitHub,
         Netlify
@@ -35,7 +35,7 @@ export default function About() {
         Other relavant skills: Communication skills, Problem Solving Skills,
         Creative Writing Skills, Creativity and Design
       </p>
-      <h3>Spoken Languages:</h3>
+      <h3 id="aboutlanguage">Spoken Languages:</h3>
       <p>
         As someone who loves languages, I am able to speak 3 languages fluently
         and 3 languages intermediately. With this, you can speak comfortably
@@ -46,7 +46,7 @@ export default function About() {
       <p>
         Intermediate in speaking and reading: Cantonese, Korean and Japanese
       </p>
-      <h3>My Hobbies {">.<"}:</h3>
+      <h3 id="abouthobby">My Hobbies {">.<"}:</h3>
       <p>
         As a curious person, I tend to try many things as I grew up and only
         some hobbies are stuck with me now. I have a few hobbies so hang in
