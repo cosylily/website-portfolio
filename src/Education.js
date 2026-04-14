@@ -4,10 +4,17 @@ export default function Education() {
   return (
     <div className="educationsection">
       <h2>Education</h2>
+      <p>2020-2022 A-levels in Kolej Mara Seremban</p>
       <p>
-        My degree is Politics, Philosophy and Economics but I gained this skill
-        out of interest.{" "}
+        2022-2025 BA (Hons) Politics, Philosophy and Economics in University of
+        Manchester
       </p>
+      <p>2024-2025 Front-end Diploma with Shecodes</p>
+      <p>
+        2025-2026 Prompt Engineering with TalentLabs MyMahir FSTC GBS
+        Train-and-Place Programme 2025 (Incomplete)
+      </p>
+      <p>2025-2026 Digital Marketing with Acadium (Incomplete)</p>
     </div>
   );
 }
