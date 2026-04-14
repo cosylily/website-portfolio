@@ -79,3 +79,6 @@ li {
 ul {
   list-style-type: none;
 }
+.aboutSection p {
+  text-align: start;
+}
