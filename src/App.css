@@ -35,13 +35,20 @@ header {
   width: 80%;
   border-bottom-right-radius: 10px;
 }
-.aboutnavi button {
-  margin: 0px;
+.aboutnavi a {
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: start;
+  padding: 5px 0;
+  text-decoration: none;
   color: black;
-  border-radius: 0px;
 }
-.aboutnavi button:hover {
-  transition: none;
+.aboutnavi a:hover {
+  background-color: black;
+  color: pink;
+}
+.aboutnavi .myhobby:hover {
+  border-bottom-right-radius: 10px;
 }
 button {
   margin: 30px 30px 30px 0;

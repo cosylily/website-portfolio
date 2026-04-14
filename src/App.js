@@ -26,9 +26,12 @@ function App() {
             About
           </button>
           <div className={isAbout ? "aboutnavi" : "d-none"}>
-            <button>Introduction</button>
-            <button>Skills</button>
-            <a href="#abouthobby">My hobby</a>
+            <a href="#aboutintroduction">Introduction</a>
+            <a href="#aboutskills">Skills</a>
+            <a href="#aboutlanguage">Spoken Languages</a>
+            <a href="#abouthobby" className="myhobby">
+              My Hobby {">.<"}
+            </a>
           </div>
           <button onClick={changeEducation}>Education</button>
           <button onClick={changeCertificate}>Certificate</button>
