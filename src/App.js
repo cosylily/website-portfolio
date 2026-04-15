@@ -22,21 +22,23 @@ function App() {
       </header>
       <div className="canvas">
         <div className="buttons">
-          <button onClick={changeAbout} className="aboutbutton">
-            About
-          </button>
-          <div className={isAbout ? "aboutnavi" : "d-none"}>
-            <a href="#aboutintroduction">Introduction</a>
-            <a href="#aboutskills">Skills</a>
-            <a href="#aboutlanguage">Spoken Languages</a>
-            <a href="#abouthobby" className="myhobby">
-              My Hobby {">.<"}
-            </a>
+          <div className="buttonsinbuttons">
+            <button onClick={changeAbout} className="aboutbutton">
+              About
+            </button>
+            <div className={isAbout ? "aboutnavi" : "d-none"}>
+              <a href="#aboutintroduction">Introduction</a>
+              <a href="#aboutskills">Skills</a>
+              <a href="#aboutlanguage">Spoken Languages</a>
+              <a href="#abouthobby" className="myhobby">
+                My Hobby {">.<"}
+              </a>
+            </div>
+            <button onClick={changeEducation}>Education</button>
+            <button onClick={changeCertificate}>Certificate</button>
+            <button onClick={changeWebsites}>Websites</button>{" "}
+            <button onClick={changeContact}>Contact</button>
           </div>
-          <button onClick={changeEducation}>Education</button>
-          <button onClick={changeCertificate}>Certificate</button>
-          <button onClick={changeWebsites}>Websites</button>{" "}
-          <button onClick={changeContact}>Contact</button>
         </div>
         <div className="emptyspace">
           <div className="introduction">

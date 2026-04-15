@@ -26,11 +26,13 @@ header {
   background-color: white;
   margin: 0 auto;
   border-radius: 10px;
-  padding: 30px 30px 0 0;
+  padding: 30px 30px 30px 0;
+  display: grid;
+  grid-template-columns: 20% 80%;
 }
 
 button {
-  margin: 30px 30px 30px 0;
+  margin: 30px 30px 0 0;
   display: flex;
   justify-content: flex-start;
   border: 0px;
@@ -42,7 +44,10 @@ button {
   border-bottom-left-radius: 0px;
   width: 100%;
 }
-
+.buttonsinbuttons {
+  position: sticky;
+  top: 200px;
+}
 button:hover {
   cursor: pointer;
   background-color: black;
@@ -50,13 +55,7 @@ button:hover {
   width: 100%;
   transition: all ease 0.2s;
 }
-.buttons {
-  position: absolute;
-  top: 250px;
-}
-.aboutbutton {
-  margin-bottom: 0px;
-}
+
 .aboutnavi {
   background-color: pink;
   width: 80%;
