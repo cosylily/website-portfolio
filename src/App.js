@@ -56,15 +56,19 @@ function App() {
   }
   function changeEducation() {
     setContent("education");
+    setAbout(false);
   }
   function changeCertificate() {
     setContent("certificates");
+    setAbout(false);
   }
   function changeWebsites() {
     setContent("websites");
+    setAbout(false);
   }
   function changeContact() {
     setContent("contacts");
+    setAbout(false);
   }
 }
 
