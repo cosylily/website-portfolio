@@ -21,6 +21,12 @@ export default function DisplayContent(props) {
   if (props.name === "contacts") {
     return <Contacts />;
   } else {
-    return <div>Click any button to start!</div>;
+    return (
+      <div>
+        <h1 className="p-3 m-3">
+          Hi 👋🏻 Welcome to my portfolio. Click any button at the side to begin!
+        </h1>
+      </div>
+    );
   }
 }
