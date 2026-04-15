@@ -112,7 +112,10 @@ ul {
 .scrollingbehaviour {
   scroll-behavior: smooth;
 }
-
+video {
+  border-radius: 10px;
+  margin: 10px 0;
+}
 .educationsection p {
   text-align: start;
 }

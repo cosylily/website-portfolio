@@ -5,6 +5,7 @@ export default function About() {
   return (
     <div className="aboutSection scrollingbehaviour">
       <h2>About Me</h2>
+
       <h3 id="aboutintroduction">Introduction:</h3>
       <p>
         Hello World! My name is Syafiqah, an aspiring junior website developer
@@ -12,6 +13,15 @@ export default function About() {
         not only act as my portfolio but I hope to make new friends through here
         (which explains my hobby section =D).{" "}
       </p>
+      <video
+        src="./syafiqahprofilelive.mov"
+        width="50%"
+        height="auto"
+        autoPlay
+        loop
+        muted="true"
+        playsinline
+      ></video>
       <p>
         I graduated from University of Manchester under the degree of Politics,
         Philosophy and Economics, focusing more on Philosophy and Economics.
