@@ -41,7 +41,7 @@ function App() {
           </div>
         </div>
         <div className="emptyspace">
-          <div className="introduction">
+          <div className="introduction anchor">
             <Content name={content} />
           </div>
         </div>

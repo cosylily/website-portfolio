@@ -109,6 +109,10 @@ ul {
 .aboutSection p {
   text-align: start;
 }
+.scrollingbehaviour {
+  scroll-behavior: smooth;
+}
+
 .educationsection p {
   text-align: start;
 }
