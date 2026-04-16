@@ -1,3 +1,9 @@
+:root {
+  --title-font: "Stardos Stencil", system-ui;
+  --subtitle-font: "Cormorant Infant", serif;
+  --text-font: "Telex", sans-serif;
+  --soft-pink: #ffebeb;
+}
 .App {
   text-align: center;
   background-image: url(/white-checkerboard.jpeg);
@@ -54,7 +60,7 @@ button:hover {
 }
 
 .aboutnavi {
-  background-color: pink;
+  background-color: var(--soft-pink);
   width: 80%;
   border-bottom-right-radius: 10px;
 }
