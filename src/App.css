@@ -6,7 +6,9 @@
 }
 .App {
   text-align: center;
-  background-image: url(/white-checkerboard.jpeg);
+  background-image: url(/src/backgroundimagetwo.jpeg);
+  background-repeat: none;
+  background-size: cover;
   padding-top: 40px;
 }
 .anchor {
@@ -15,6 +17,7 @@
 .title {
   display: flex;
   justify-content: space-around;
+  padding: 20px;
 }
 .title h2 {
   font-size: 100px;

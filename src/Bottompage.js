@@ -18,6 +18,10 @@ export default function Footerbottom() {
           skill is useful, contact me through email.
         </p>
         <p>This page is coded by Syafiqah, using React.js.</p>
+        <p>
+          Background Image link:{" "}
+          <a href="https://pin.it/5UirqeKti">https://pin.it/5UirqeKti</a>
+        </p>
         <a href="#toppage">Go to top page </a>
       </div>
     </footer>
