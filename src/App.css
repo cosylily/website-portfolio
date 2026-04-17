@@ -11,7 +11,15 @@
   background-size: cover;
   padding-top: 40px;
 }
-
+h2 {
+  font-family: var(--title-font);
+}
+h3 {
+  font-family: var(--subtitle-font);
+}
+p {
+  font-family: var(--text-font);
+}
 .title {
   display: flex;
   justify-content: space-around;
@@ -112,6 +120,12 @@ footer {
 li {
   text-align: start;
   padding: 10px 0;
+  font-family: var(--subtitle-font);
+  font-size: 30px;
+}
+li a {
+  font-family: var(--text-font);
+  font-size: 25px;
 }
 ul {
   list-style-type: none;
