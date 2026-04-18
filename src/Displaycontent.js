@@ -27,6 +27,12 @@ export default function DisplayContent(props) {
         <h1 className="p-3 m-3 prompt">
           Hi 👋🏻 Welcome to my portfolio. Click any button at the side to begin!
         </h1>
+        <img
+          src="/logoforportfolio.jpg"
+          alt="Self-doodle icon"
+          height="300px"
+          width="auto"
+        />
       </div>
     );
   }
