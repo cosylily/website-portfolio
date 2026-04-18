@@ -36,7 +36,7 @@ export default function About() {
         portfolio and writing. I am sure that with my skills, I will be able to
         understand your idea and materialise it.
       </p>
-      <h3 id="aboutskills">Skills:</h3>
+      <h3 id="aboutskills">Skills 🛠️:</h3>
       <p>
         Technical Skills: HTML, CSS, JavaScript, React.js, Figma, Canva, GitHub,
         Netlify
@@ -45,7 +45,7 @@ export default function About() {
         Other relavant skills: Communication skills, Problem Solving Skills,
         Creative Writing Skills, Creativity and Design
       </p>
-      <h3 id="aboutlanguage">Spoken Languages:</h3>
+      <h3 id="aboutlanguage">Spoken Languages 🔈:</h3>
       <p>
         As someone who loves languages, I am able to speak 3 languages fluently
         and 3 languages intermediately. With this, you can speak comfortably

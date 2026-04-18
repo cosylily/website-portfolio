@@ -75,7 +75,7 @@ button:hover {
 
 .aboutnavi {
   background-color: var(--soft-pink);
-  width: 80%;
+  width: 95%;
   border-bottom-right-radius: 10px;
 }
 .aboutnavi a {

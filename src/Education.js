@@ -5,6 +5,12 @@ export default function Education() {
   return (
     <div className="educationsection">
       <h2>Education</h2>
+      <img
+        src="/grad.jpg"
+        alt="doodle graduation"
+        width="300px"
+        height="auto"
+      />
       <p>2020-2022 A-levels in Kolej Mara Seremban</p>
       <p>
         2022-2025 BA (Hons) Politics, Philosophy and Economics in University of

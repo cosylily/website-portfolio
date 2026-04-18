@@ -28,7 +28,7 @@ export default function DisplayContent(props) {
           Hi 👋🏻 Welcome to my portfolio. Click any button at the side to begin!
         </h1>
         <img
-          src="/logoforportfolio.jpg"
+          src="/work.jpg"
           alt="Self-doodle icon"
           height="300px"
           width="auto"
