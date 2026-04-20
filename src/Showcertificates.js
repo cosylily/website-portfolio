@@ -6,6 +6,11 @@ export default function Certs() {
   return (
     <div>
       <h2>Certifications of Coding Skills</h2>
+      <p className="p-3">
+        In one year, I have completed course necessary for web development
+        through Shecodes. Skills gained from this online course are HTML, CSS,
+        Javasript, React.js, Responsiveness and Python.{" "}
+      </p>
       <div className="certificates">
         <img
           src="/cert1.png"
