@@ -65,7 +65,7 @@ header {
   font-family: var(--title-font);
 }
 
-button:hover {
+.buttonsinbuttons button:hover {
   cursor: pointer;
   background-color: black;
   color: pink;

@@ -1,10 +1,20 @@
 .webbuttons {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
 }
 .learnmorebutton {
-  padding: 0px;
-  margin: 0 auto;
-  text-align: center !important;
+  padding: 10px 0;
   width: 50%;
+  text-align: center !important;
+  border-radius: 10px;
+  margin: 30px auto;
+}
+.weblink {
+  border: 1px solid;
+  padding: 30px;
+  width: 50%;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 30px auto;
 }
