@@ -15,17 +15,24 @@ export default function Footerbottom() {
         />
       </div>
       <div className="footercontent">
-        <p>
-          Thank you for visiting this website. If there is any chance that my
-          skill is useful, contact me through email.
-        </p>
-        <p>This page is coded by Syafiqah, using React.js.</p>
-        <p>
-          Background Image link:{" "}
-          <a href="https://pin.it/5UirqeKti">https://pin.it/5UirqeKti</a>
-        </p>
-        <a href="#toppage">Go to top page </a>
+        <div className="contentone">
+          <p>
+            Thank you for visiting this website. If there is any chance that my
+            skill is useful, contact me through email.
+          </p>
+          <p>This page is coded by Syafiqah, using React.js.</p>
+        </div>
+        <div className="contenttwo">
+          <p>Contact me:</p>
+          <div className="bottomcontacts">
+            <p>Email:</p>
+            <p>XiaoHongShu:</p>
+            <p>Instagram:</p>
+            <p>LinkedIn:</p>
+          </div>
+        </div>
       </div>
+      <a href="#toppage">↑Go to top page </a>
     </footer>
   );
 }

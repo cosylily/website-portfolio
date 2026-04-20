@@ -14,6 +14,7 @@ export default function Contacts() {
         </li>
         <li>Instagram: </li>
         <li>XiaoHongShu: </li>
+        <li>LinkedIn:</li>
       </ul>
     </div>
   );
