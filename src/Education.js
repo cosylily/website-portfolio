@@ -10,6 +10,7 @@ export default function Education() {
         alt="doodle graduation"
         width="300px"
         height="auto"
+        className="graduationimg"
       />
       <p>2020-2022 A-levels in Kolej Mara Seremban</p>
       <p>

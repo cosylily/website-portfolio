@@ -149,3 +149,7 @@ video {
 .prompt {
   font-family: var(--title-font);
 }
+.graduationimg {
+  border-radius: 10px;
+  margin: 20px;
+}
