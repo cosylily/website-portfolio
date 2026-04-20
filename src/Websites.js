@@ -26,7 +26,7 @@ export default function displaywebsites() {
         </p>
         <div className="webbuttons">
           {" "}
-          <button>Learn more</button>
+          <button className="learnmorebutton">Learn more</button>
           <a href="https://syafsupdate.netlify.app/">Visit Website</a>
         </div>
       </div>

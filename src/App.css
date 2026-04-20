@@ -50,7 +50,7 @@ header {
   background-color: #f6f4ef;
 }
 
-button {
+.buttonsinbuttons button {
   margin: 30px 30px 0 0;
   display: flex;
   justify-content: flex-start;

@@ -1,0 +1,10 @@
+.webbuttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.learnmorebutton {
+  padding: 0px;
+  margin: 0 auto;
+  text-align: center !important;
+  width: 50%;
+}
