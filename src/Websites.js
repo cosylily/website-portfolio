@@ -9,7 +9,12 @@ export default function Displaywebsites() {
   let [description, setDescription] = useState();
 
   if (ready) {
-    return <Descp show={description} />;
+    return (
+      <div>
+        <button onClick={displayNormal}>Back</button>
+        <Descp show={description} />
+      </div>
+    );
   } else {
     return (
       <div>
@@ -53,5 +58,8 @@ export default function Displaywebsites() {
   function changeDisplay() {
     setReady(true);
     setDescription("firstwebsite");
+  }
+  function displayNormal() {
+    setReady(false);
   }
 }
