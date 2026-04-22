@@ -83,6 +83,88 @@ export default function Descp(props) {
     );
   }
   if (props.show === "secondwebsite") {
-    return <div>Hi</div>;
+    return (
+      <div className="secondsection">
+        <h2 className="p-2 m-2">Tsurune Fan Page</h2>
+        <video
+          src="/tsurunefanpage-1.mov"
+          width="50%"
+          height="auto"
+          autoPlay
+          loop
+          muted="true"
+          playsinline
+          className="m-2"
+        ></video>
+        <div className="descriptions section ">
+          <h3>About website:</h3>
+          <p>
+            This webiste is coded for my own practice and my way of showing my
+            love to the anime. To make it look like a fanpage and a proper
+            website, I get inspiration from websites that alright published
+            information about the anime. The inspirations help me to build
+            sections in the website and add some sections of my own to call it
+            my own website. I did not update one of the section in the website
+            because the project dragged too long and I did not have enough time
+            to update the section as it needed my own information.
+          </p>
+        </div>
+        <div className="codinglanguage section">
+          <h3>Languages used:</h3>
+          <p>HTML, CSS and JavaScript</p>
+        </div>
+        <div className="designmethod section">
+          <h3>Web design method:</h3> <p>Paper and Pen (Wireframe) and Figma</p>
+        </div>
+        <div className="sources section">
+          <h3>Material sources:</h3>
+          <p>
+            Pinterest for images. XiaoHongShu for colour palette. Information on
+            the anime from Tsurune Wiki and Wikipedia.
+          </p>
+        </div>
+        <div className="section challenges">
+          <h3>Challenges faced:</h3>
+          <ul>
+            <li>
+              <h4>Lack of certain section when designing using Figma</h4>
+              <p>
+                As someone who is yet to get used to Figma, I completed the
+                design for the homepage but not for all sections. I did try to
+                design some other sections for visualisation but did not
+                complete them. But I got to say, though the process of designing
+                usig Figma takes a long time, the visuals really help in finish
+                developing the page quickly.
+              </p>
+            </li>
+            <li>
+              <h4>Colour matching</h4>
+              <p>
+                Like I mentioned above, I only used Figma to design some of the
+                sections. If you refer to the website, you will notice that I
+                used different colour palettes for some different sections in
+                the website. When I changed to different colour palette, it was
+                quite difficult as I had to match the colours again. However,
+                this time, I had a lot of fun as the colours were pretty {"<3"}.
+              </p>
+            </li>
+            <li>
+              <h4>Size of the website</h4>
+              <p>
+                I had developed a handful of websites but they were all simple
+                ones. This is the first time I added a lot of section and coded
+                earnestly. It took me lots of time to finish this project as I
+                had to focus on other tasks on hand as well. I procastinated
+                along the way as well which led to one of the page in the
+                website not being updated.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <a href="https://github.com/cosylily/tsurune-lily.git">
+          Go to GitHub for the code
+        </a>
+      </div>
+    );
   }
 }
