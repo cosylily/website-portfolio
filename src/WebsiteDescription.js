@@ -82,4 +82,7 @@ export default function Descp(props) {
       </div>
     );
   }
+  if (props.show === "secondwebsite") {
+    return <div>Hi</div>;
+  }
 }
