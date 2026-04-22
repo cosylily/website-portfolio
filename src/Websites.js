@@ -57,7 +57,8 @@ export default function Displaywebsites() {
         <div className="fanpage">
           <h3>Tsurune Fanpage:</h3>
           <video
-            src="/tsurunefanpage.mov"
+            src="
+            /tsurunefanpage-1.mov"
             width="50%"
             height="auto"
             autoPlay
