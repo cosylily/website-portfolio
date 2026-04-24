@@ -89,9 +89,9 @@ export default function Displaywebsites() {
           </div>
         </div>
         <div className="lifeupdate">
-          <h3>Sharing life update with friends:</h3>
+          <h3>Birthday Gift to a friend:</h3>
           <video
-            src="/lifeupdate.mov"
+            src="/newspaperbirthdaytheme.mov"
             width="50%"
             height="auto"
             autoPlay
@@ -100,18 +100,21 @@ export default function Displaywebsites() {
             playsinline
           ></video>
           <p>
-            As we live far away from each other, my friend has organised a
-            meeting for us to gather online and present our life updates. I
-            thought to myself that creating a presentation would be cliche, so I
-            created a website instead {">.<"}
+            Upon thinking what to give my friend for her birthday, I decided to
+            code a website for her. We had lesser time to meet and there is
+            nothing better than giving a digital gift. While using my specialty,
+            I let her know that she is special to me in this website. This is
+            not the exact website I coded for my friend as I would like to
+            protect her privacy. I replaced her information and pictures to
+            something else.
           </p>
           <div className="webbuttons">
             {" "}
-            <button className="learnmorebutton" onClick={displayOne}>
+            <button className="learnmorebutton" onClick={displayThree}>
               Learn more
             </button>
             <a
-              href="https://syafsupdate.netlify.app/"
+              href="http://birthdaycatnews.netlify.app/"
               className="weblink"
               target="_blank"
               rel="noreferrer"
@@ -133,5 +136,9 @@ export default function Displaywebsites() {
   }
   function displayNormal() {
     setReady(false);
+  }
+  function displayThree() {
+    setReady(true);
+    setDescription("thirdwebsite");
   }
 }
