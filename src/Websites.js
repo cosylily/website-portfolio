@@ -91,7 +91,7 @@ export default function Displaywebsites() {
         <div className="lifeupdate">
           <h3>Birthday Gift to a friend:</h3>
           <video
-            src="/newspaperbirthdaytheme.mov"
+            src="/newpaperbirthdaytheme.mov"
             width="50%"
             height="auto"
             autoPlay
