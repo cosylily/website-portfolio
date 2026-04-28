@@ -231,7 +231,7 @@ export default function Descp(props) {
             </li>
           </ul>
         </div>
-        <a href="https://github.com/cosylily/tsurune-lily.git">
+        <a href="https://github.com/cosylily/newspaperbirthdaytheme.git">
           Go to GitHub for the code
         </a>
       </div>
