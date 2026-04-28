@@ -106,7 +106,8 @@ export default function Descp(props) {
             sections in the website and add some sections of my own to call it
             my own website. I did not update one of the section in the website
             because the project dragged too long and I did not have enough time
-            to update the section as it needed my own information.
+            to update the section as it needed my own information. The website
+            that I display here is not the original version.
           </p>
         </div>
         <div className="codinglanguage section">
@@ -172,7 +173,7 @@ export default function Descp(props) {
       <div className="thirdsection">
         <h2 className="p-2 m-2">Newspaper themed birthday website</h2>
         <video
-          src="/newspaperbirthdaytheme.mov"
+          src="/newpaperbirthdaytheme.mov"
           width="50%"
           height="auto"
           autoPlay
@@ -211,36 +212,21 @@ export default function Descp(props) {
           <h3>Challenges faced:</h3>
           <ul>
             <li>
-              <h4>Lack of certain section when designing using Figma</h4>
+              <h4>Website structure</h4>
               <p>
-                As someone who is yet to get used to Figma, I completed the
-                design for the homepage but not for all sections. I did try to
-                design some other sections for visualisation but did not
-                complete them. But I got to say, though the process of designing
-                usig Figma takes a long time, the visuals really help in finish
-                developing the page quickly.
+                It was challenging to code the website to fit a newspaper
+                structure as I lack the time to think about the contents in
+                detail. The length of the description next to the picture had to
+                be controlled to fit the length of the picture.
               </p>
             </li>
             <li>
-              <h4>Colour matching</h4>
+              <h4>Responsiveness</h4>
               <p>
-                Like I mentioned above, I only used Figma to design some of the
-                sections. If you refer to the website, you will notice that I
-                used different colour palettes for some different sections in
-                the website. When I changed to different colour palette, it was
-                quite difficult as I had to match the colours again. However,
-                this time, I had a lot of fun as the colours were pretty {"<3"}.
-              </p>
-            </li>
-            <li>
-              <h4>Size of the website</h4>
-              <p>
-                I had developed a handful of websites but they were all simple
-                ones. This is the first time I added a lot of section and coded
-                earnestly. It took me lots of time to finish this project as I
-                had to focus on other tasks on hand as well. I procastinated
-                along the way as well which led to one of the page in the
-                website not being updated.
+                Considering my friend will not have the time to open the website
+                on a large screen, I had to consider how to make it look good in
+                both screens. It took some time and I had to take some contents
+                out to make the site look both in both screens.
               </p>
             </li>
           </ul>
