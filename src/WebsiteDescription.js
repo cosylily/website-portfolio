@@ -167,4 +167,88 @@ export default function Descp(props) {
       </div>
     );
   }
+  if (props.show === "thirdwebsite") {
+    return (
+      <div className="thirdsection">
+        <h2 className="p-2 m-2">Newspaper themed birthday website</h2>
+        <video
+          src="/newspaperbirthdaytheme.mov"
+          width="50%"
+          height="auto"
+          autoPlay
+          loop
+          muted="true"
+          playsinline
+          className="m-2"
+        ></video>
+        <div className="descriptions section ">
+          <h3>About website:</h3>
+          <p>
+            While I was thinking hard on gifts for my friend's birthday, it came
+            to me that building a website to celebrate her birthday would not be
+            a bad idea. (Of course, this website is not the only gift!) It was
+            not easy to consider the sections and theme for this website. Then
+            as I was browsing for ideas, it came to me that nothing is better
+            than telling how I appreciate her and include our memories in the
+            form of newspaper. That was how this website was coded. I included
+            her favourite online game as well, sudoku!
+          </p>
+        </div>
+        <div className="codinglanguage section">
+          <h3>Languages used:</h3>
+          <p>HTML and light CSS</p>
+        </div>
+        <div className="designmethod section">
+          <h3>Web design method:</h3> <p>Paper and Pen (Wireframe)</p>
+        </div>
+        <div className="sources section">
+          <h3>Material sources:</h3>
+          <p>
+            XiaoHongShu for website structure, my own photo app for pictures.
+          </p>
+        </div>
+        <div className="section challenges">
+          <h3>Challenges faced:</h3>
+          <ul>
+            <li>
+              <h4>Lack of certain section when designing using Figma</h4>
+              <p>
+                As someone who is yet to get used to Figma, I completed the
+                design for the homepage but not for all sections. I did try to
+                design some other sections for visualisation but did not
+                complete them. But I got to say, though the process of designing
+                usig Figma takes a long time, the visuals really help in finish
+                developing the page quickly.
+              </p>
+            </li>
+            <li>
+              <h4>Colour matching</h4>
+              <p>
+                Like I mentioned above, I only used Figma to design some of the
+                sections. If you refer to the website, you will notice that I
+                used different colour palettes for some different sections in
+                the website. When I changed to different colour palette, it was
+                quite difficult as I had to match the colours again. However,
+                this time, I had a lot of fun as the colours were pretty {"<3"}.
+              </p>
+            </li>
+            <li>
+              <h4>Size of the website</h4>
+              <p>
+                I had developed a handful of websites but they were all simple
+                ones. This is the first time I added a lot of section and coded
+                earnestly. It took me lots of time to finish this project as I
+                had to focus on other tasks on hand as well. I procastinated
+                along the way as well which led to one of the page in the
+                website not being updated.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <a href="https://github.com/cosylily/tsurune-lily.git">
+          Go to GitHub for the code
+        </a>
+      </div>
+    );
+  }
 }
