@@ -32,6 +32,7 @@ export default function DisplayContent(props) {
           alt="Self-doodle icon"
           height="300px"
           width="auto"
+          className="welcomeimg"
         />
       </div>
     );
