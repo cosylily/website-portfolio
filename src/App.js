@@ -34,7 +34,7 @@ function App() {
             </div>
             <button onClick={changeEducation}>Education</button>
             <button onClick={changeCertificate}>Certificate</button>
-            <button onClick={changeWebsites}>Websites</button>{" "}
+            <button onClick={changeWebsites}>Websites</button>
             <button onClick={changeContact}>Contact</button>
           </div>
         </div>
