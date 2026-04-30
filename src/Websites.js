@@ -20,7 +20,7 @@ export default function Displaywebsites() {
   } else {
     return (
       <div>
-        <h2>Websites</h2>
+        <h2 className="maintitle">Websites</h2>
         <p>Here are three websites that I coded recently:</p>
         <div className="portfolio">
           {" "}

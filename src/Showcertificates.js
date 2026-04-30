@@ -5,7 +5,7 @@ import "./certificates.css";
 export default function Certs() {
   return (
     <div>
-      <h2>Certifications of Coding Skills</h2>
+      <h2 className="maintitle">Certifications of Coding Skills</h2>
       <p className="p-3">
         In one year, I have completed course necessary for web development
         through Shecodes. Skills gained from this online course are HTML, CSS,

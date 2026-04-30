@@ -3,8 +3,8 @@ import "./App.css";
 
 export default function Contacts() {
   return (
-    <div>
-      <h2>Contact for work</h2>
+    <div className="contactsection">
+      <h2 className="maintitle">Contact for work</h2>
       <ul>
         <li>
           Email:{"  "}
