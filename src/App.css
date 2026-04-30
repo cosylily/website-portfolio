@@ -10,7 +10,7 @@
     linear-gradient(rgba(246, 244, 239, 0.5), rgba(246, 244, 239, 0.6)),
     url(/src/backgroundimagetwo.jpeg);
   background-repeat: none;
-  background-size: cover;
+  background-size: contain;
   padding-top: 40px;
 }
 .welcomeimg {
@@ -29,7 +29,7 @@ p {
 .title {
   display: flex;
   justify-content: space-around;
-  padding: 20px;
+  padding: 10px;
 }
 .title h2 {
   font-size: 100px;
@@ -41,7 +41,7 @@ header img {
   padding: 10px;
 }
 header {
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .canvas {
   padding: 30px;
@@ -69,7 +69,7 @@ header {
 }
 
 .emptyspace {
-  padding: 20px;
+  padding: 30px;
   border: dashed black;
   border-radius: 10px;
   border-top-left-radius: 0px;
@@ -130,7 +130,7 @@ video {
 
 .maintitle {
   font-size: 80px;
-  padding: 50px;
+  padding: 30px;
 }
 .aboutmenu {
   display: flex;

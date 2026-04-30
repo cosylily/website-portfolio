@@ -4,7 +4,7 @@ import "./App.css";
 export default function Education() {
   return (
     <div className="educationsection">
-      <h2>Education</h2>
+      <h2 className="maintitle">Education</h2>
       <img
         src="/grad.jpg"
         alt="doodle graduation"
