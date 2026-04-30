@@ -4,7 +4,7 @@ import "./App.css";
 export default function About() {
   return (
     <div className="aboutSection scrollingbehaviour">
-      <h2>About Me</h2>
+      <h2 className="maintitle">About Me</h2>
 
       <h3 id="aboutintroduction">Introduction:</h3>
       <p>

@@ -5,33 +5,27 @@ import { useState } from "react";
 
 function App() {
   let [content, setContent] = useState();
-  let [isAbout, setAbout] = useState(false);
+
   return (
     <div className="App">
-      <header className="title" id="toppage">
-        <h2>Syafiqah's</h2>
-        <div>
-          <img
-            src="logoforportfolio.jpg"
-            alt="Self-doodle logo"
-            height="100px"
-            width="auto"
-          />
-        </div>
-        <h2>Portfolio</h2>
-      </header>
       <div className="canvas">
+        <header className="title" id="toppage">
+          <h2>Syafiqah's</h2>
+          <div>
+            <img
+              src="logoforportfolio.jpg"
+              alt="Self-doodle logo"
+              height="100px"
+              width="auto"
+            />
+          </div>
+          <h2>Portfolio</h2>
+        </header>
         <div className="buttons">
           <div className="buttonsinbuttons">
             <button onClick={changeAbout} className="aboutbutton">
               About
             </button>
-            <div className={isAbout ? "aboutnavi" : "d-none"}>
-              <a href="#aboutintroduction">Introduction</a>
-              <a href="#aboutskills">Skills</a>
-              <a href="#aboutlanguage">Spoken Languages</a>
-              <a href="#abouthobby">My Hobby {">.<"}</a>
-            </div>
             <button onClick={changeEducation}>Education</button>
             <button onClick={changeCertificate}>Certificate</button>
             <button onClick={changeWebsites}>Websites</button>
@@ -50,23 +44,18 @@ function App() {
 
   function changeAbout() {
     setContent("about");
-    setAbout(true);
   }
   function changeEducation() {
     setContent("education");
-    setAbout(false);
   }
   function changeCertificate() {
     setContent("certificates");
-    setAbout(false);
   }
   function changeWebsites() {
     setContent("websites");
-    setAbout(false);
   }
   function changeContact() {
     setContent("contacts");
-    setAbout(false);
   }
 }
 
