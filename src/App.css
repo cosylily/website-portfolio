@@ -19,7 +19,6 @@
 h2 {
   font-family: var(--title-font);
   color: #122c4f;
-  font-size: 40px;
 }
 h3 {
   font-family: var(--subtitle-font);
@@ -69,27 +68,6 @@ header {
   color: pink;
 }
 
-.aboutnavi {
-  background-color: var(--soft-pink);
-  width: 95%;
-  border-bottom-right-radius: 10px;
-}
-.aboutnavi a {
-  display: grid;
-  grid-template-columns: 1fr;
-  text-align: start;
-  padding: 5px 0;
-  text-decoration: none;
-  color: black;
-  font-family: var(--subtitle-font);
-}
-.aboutnavi a:hover {
-  background-color: black;
-  color: pink;
-}
-.aboutnavi .myhobby:hover {
-  border-bottom-right-radius: 10px;
-}
 .emptyspace {
   padding: 20px;
   border: dashed black;
@@ -152,11 +130,13 @@ video {
 
 .maintitle {
   font-size: 80px;
+  padding: 50px;
 }
 .aboutmenu {
   display: flex;
   justify-content: space-evenly;
   padding: 20px;
+  margin-bottom: 50px;
 }
 .aboutmenu a {
   border-left: 1px solid black;
@@ -173,4 +153,24 @@ video {
   color: black;
   transition: all ease 0.5s;
   border-color: pink;
+}
+.aboutintro {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding: 10px;
+  margin: 10px 0;
+}
+.aboutintro .video {
+  padding: 30px;
+  padding-top: 0px;
+}
+.aboutintro video {
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.aboutintro p {
+  font-size: 20px;
+}
+.aboutSection h3 {
+  font-size: 40px;
 }
