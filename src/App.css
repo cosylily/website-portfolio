@@ -25,6 +25,7 @@ h3 {
 }
 p {
   font-family: var(--text-font);
+  font-size: 20px;
 }
 .title {
   display: flex;
@@ -168,9 +169,7 @@ video {
   border-radius: 10px;
   border: 1px solid black;
 }
-.aboutSection p {
-  font-size: 20px;
-}
+
 .aboutSection h3 {
   font-size: 40px;
 }
