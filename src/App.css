@@ -139,7 +139,7 @@ video {
   margin-bottom: 50px;
 }
 .aboutmenu a {
-  border-left: 1px solid black;
+  border-left: 3px solid black;
   padding-left: 20px;
   padding-top: 20px;
   text-align: center;
@@ -168,9 +168,17 @@ video {
   border-radius: 10px;
   border: 1px solid black;
 }
-.aboutintro p {
+.aboutSection p {
   font-size: 20px;
 }
 .aboutSection h3 {
   font-size: 40px;
+}
+
+#aboutintroduction,
+#aboutskills,
+#aboutlanguage,
+#abouthobby {
+  padding: 10px;
+  margin-top: 60px;
 }
