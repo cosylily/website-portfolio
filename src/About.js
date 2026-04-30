@@ -5,7 +5,12 @@ export default function About() {
   return (
     <div className="aboutSection scrollingbehaviour">
       <h2 className="maintitle">About Me</h2>
-
+      <div className="aboutmenu">
+        <a href="#aboutintroduction">Introduction</a>
+        <a href="#aboutskills">Skills</a>
+        <a href="#aboutlanguage">Languages</a>
+        <a href="#abouthobby">Hobbies</a>
+      </div>
       <h3 id="aboutintroduction">Introduction:</h3>
       <p>
         Hello World! My name is Syafiqah, an aspiring junior website developer
