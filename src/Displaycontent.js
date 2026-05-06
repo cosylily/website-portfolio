@@ -24,16 +24,19 @@ export default function DisplayContent(props) {
   } else {
     return (
       <div>
-        <h1 className="p-3 m-3 prompt">
-          Hi 👋🏻 Welcome to my portfolio. Click any button at the side to begin!
-        </h1>
-        <img
-          src="/work.jpg"
-          alt="Self-doodle icon"
-          height="300px"
-          width="auto"
-          className="welcomeimg"
-        />
+        <h1 className="p-3 m-3 prompt">Hi!{"  "} Welcome to</h1>
+        <header className="title" id="toppage">
+          <h2>Syafiqah's</h2>
+          <div>
+            <img
+              src="logoforportfolio.jpg"
+              alt="Self-doodle logo"
+              height="100px"
+              width="auto"
+            />
+          </div>
+          <h2>Portfolio</h2>
+        </header>
       </div>
     );
   }
