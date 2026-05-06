@@ -24,19 +24,37 @@ export default function DisplayContent(props) {
   } else {
     return (
       <div>
-        <h1 className="p-3 m-3 prompt">Hi!{"  "} Welcome to</h1>
-        <header className="title" id="toppage">
-          <h2>Syafiqah's</h2>
-          <div>
-            <img
-              src="logoforportfolio.jpg"
-              alt="Self-doodle logo"
-              height="100px"
-              width="auto"
-            />
-          </div>
-          <h2>Portfolio</h2>
-        </header>
+        <div className="greetings">
+          <h1 className="p-3 m-3 prompt">
+            Hi there 🙃 Welcome to my portfolio!
+          </h1>
+          <h2>
+            I am Syafiqah Dayana, an aspiring website designer and junior
+            front-end developer!
+          </h2>
+          <h2>Based in Kuala Lumpur, Malaysia 🇲🇾</h2>
+        </div>
+        <div>
+          <h2>About me:</h2>
+          <p>
+            I am a recent graduate from University of Manchester under the
+            degree of Politics, Philosophy and Economics. During my degree, I
+            had the chance to learn about website design and became very
+            interested in it!
+          </p>
+          <button>Learn more here</button>
+        </div>
+        <div>
+          <h2>Education and Qualifications</h2>
+          <p>
+            My degree is BA Politics, Philosophy and Economics and I am heavily
+            interested in Philosophy & Economics! If you are interested, let's
+            talk about them! I also had the initiative to take an online course
+            for my website developing skills. Some coding languages that I am
+            skilled in are HTML, CSS and Javascript.
+          </p>
+          <button>My education</button> <button>My Qualifications</button>
+        </div>
       </div>
     );
   }
