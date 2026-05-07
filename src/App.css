@@ -44,6 +44,9 @@ header img {
 header {
   margin-top: 20px;
 }
+.syaf {
+  border-radius: 10px;
+}
 .canvas {
   padding: 30px;
 }

@@ -25,27 +25,37 @@ export default function DisplayContent(props) {
     return (
       <div>
         <div className="greetings">
-          <h1 className="p-3 m-3 prompt">
+          <h1 className="prompt p-3 m-5">
             Hi there 🙃 Welcome to my portfolio!
           </h1>
-          <h2>
-            I am Syafiqah Dayana, an aspiring website designer and junior
-            front-end developer!
-          </h2>
-          <h2>Based in Kuala Lumpur, Malaysia 🇲🇾</h2>
+          <img
+            src="/mainpic.jpeg"
+            alt="Syafiqah graduating with her favourite coffee during her degree!"
+            width="auto"
+            height="500px"
+            className="syaf"
+          />
+          <div className="m-5">
+            <h2 className="p-2">
+              I am Syafiqah Dayana, an aspiring website designer and junior
+              front-end developer!
+            </h2>
+            <h2 className="p-2">Based in Kuala Lumpur, Malaysia 🇲🇾</h2>
+          </div>
         </div>
-        <div>
-          <h2>About me:</h2>
+        <div className="p-2 m-5 text-start">
+          <h2 className="">About me:</h2>
           <p>
             I am a recent graduate from University of Manchester under the
             degree of Politics, Philosophy and Economics. During my degree, I
             had the chance to learn about website design and became very
-            interested in it!
+            interested in it! My current obsession is Traditional Japanese
+            Archery {"<3"}!
           </p>
           <button>Learn more here</button>
         </div>
-        <div>
-          <h2>Education and Qualifications</h2>
+        <div className="p-2 m-5 text-start">
+          <h2 className="">Education and Qualifications</h2>
           <p>
             My degree is BA Politics, Philosophy and Economics and I am heavily
             interested in Philosophy & Economics! If you are interested, let's
@@ -55,7 +65,7 @@ export default function DisplayContent(props) {
           </p>
           <button>My education</button> <button>My Qualifications</button>
         </div>
-        <div>
+        <div className="p-2 m-5 text-start">
           <h2>Coded Websites</h2>
           <p>
             I coded some simple websites for my own use! Click to learn more
