@@ -208,3 +208,16 @@ video {
   display: flex;
   justify-content: space-around;
 }
+.mainpagecontent h2,
+.mainpagecontent p {
+  text-align: left;
+}
+.mainpagecontent button {
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.edusectionbuttons {
+  display: flex;
+  justify-content: space-around;
+}
