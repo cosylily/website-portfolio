@@ -192,3 +192,13 @@ video {
 .contactsection ul li a {
   font-size: 20px;
 }
+.aboutsectioncontent {
+  display: flex;
+  justify-content: space-evenly;
+}
+.aboutsectioncontent video {
+  margin: 20px;
+}
+.aboutsectioncontenttwo {
+  margin: 20px;
+}

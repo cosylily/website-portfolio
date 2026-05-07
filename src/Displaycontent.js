@@ -45,14 +45,35 @@ export default function DisplayContent(props) {
         </div>
         <div className="p-2 m-5 text-start">
           <h2 className="">About me:</h2>
-          <p>
-            I am a recent graduate from University of Manchester under the
-            degree of Politics, Philosophy and Economics. During my degree, I
-            had the chance to learn about website design and became very
-            interested in it! My current obsession is Traditional Japanese
-            Archery {"<3"}!
-          </p>
-          <button>Learn more here</button>
+          <div className="aboutsectioncontent">
+            <video
+              src="/kyudo.MOV"
+              autoPlay
+              loop
+              muted="true"
+              playsinline
+              width="auto"
+              height="500px"
+            ></video>
+            <div className="aboutsectioncontenttwo">
+              <p>
+                Hello there! I am a recent graduate from University of
+                Manchester under the degree of Politics, Philosophy and
+                Economics. During my degree, I had the chance to learn about
+                website design and became very interested in it! I just love how
+                I am able to express my creativity in a way that is not very
+                conventional. My current obsession is Traditional Japanese
+                Archery {"<3"}! It helps me in keeping my creativity juices
+                flowing instead of keeping couped up in a closed space and
+                sitting down all day. As a Malaysian, I am proud to say that I
+                speak three languages fluently which are Malay, English and
+                Mandarin. I enjoy learning new languages too. Now I am able to
+                speak another 3 new languages at a conversational level. Let's
+                get to know each other!
+              </p>
+              <button>Learn more here</button>
+            </div>
+          </div>
         </div>
         <div className="p-2 m-5 text-start">
           <h2 className="">Education and Qualifications</h2>
