@@ -55,6 +55,13 @@ export default function DisplayContent(props) {
           </p>
           <button>My education</button> <button>My Qualifications</button>
         </div>
+        <div>
+          <h2>Coded Websites</h2>
+          <p>
+            I coded some simple websites for my own use! Click to learn more
+          </p>
+          <button>All websites here</button>
+        </div>
       </div>
     );
   }
