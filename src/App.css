@@ -6,10 +6,8 @@
 }
 .App {
   text-align: center;
-  background-image:
-    linear-gradient(rgba(246, 244, 239, 0.5), rgba(246, 244, 239, 0.6)),
-    url(/src/backgroundimagetwo.jpeg);
-  background-repeat: none;
+  background-image: url(/src/paperbackground.jpeg);
+  background-repeat: no-repeat;
   background-size: cover;
   padding-top: 40px;
 }
@@ -201,4 +199,12 @@ video {
 }
 .aboutsectioncontenttwo {
   margin: 20px;
+}
+.aboutsectioncontent img {
+  margin: 20px;
+  border-radius: 10px;
+}
+.groupvid {
+  display: flex;
+  justify-content: space-around;
 }

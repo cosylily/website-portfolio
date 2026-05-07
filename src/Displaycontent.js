@@ -68,8 +68,8 @@ export default function DisplayContent(props) {
                 sitting down all day. As a Malaysian, I am proud to say that I
                 speak three languages fluently which are Malay, English and
                 Mandarin. I enjoy learning new languages too. Now I am able to
-                speak another 3 new languages at a conversational level. Let's
-                get to know each other!
+                speak another 3 languages at a conversational level. Let's get
+                to know each other!
               </p>
               <button>Learn more here</button>
             </div>
@@ -77,17 +77,58 @@ export default function DisplayContent(props) {
         </div>
         <div className="p-2 m-5 text-start">
           <h2 className="">Education and Qualifications</h2>
-          <p>
-            My degree is BA Politics, Philosophy and Economics and I am heavily
-            interested in Philosophy & Economics! If you are interested, let's
-            talk about them! I also had the initiative to take an online course
-            for my website developing skills. Some coding languages that I am
-            skilled in are HTML, CSS and Javascript.
-          </p>
-          <button>My education</button> <button>My Qualifications</button>
+          <div className="aboutsectioncontent">
+            <div className="aboutsectioncontenttwo">
+              <p>
+                My degree is BA Politics, Philosophy and Economics and I am
+                heavily interested in Philosophy & Economics! If you are
+                interested, let's talk about them! I also had the initiative to
+                take an online course for my website developing skills. Some
+                coding languages that I am skilled in are HTML, CSS and
+                Javascript.
+              </p>
+              <button>My education</button> <button>My Qualifications</button>
+            </div>
+
+            <img
+              src="/cert1.png"
+              alt="certificate of basic html"
+              width="50%"
+              height="auto"
+            />
+          </div>
         </div>
         <div className="p-2 m-5 text-start">
           <h2>Coded Websites</h2>
+          <div className="groupvid">
+            <video
+              src="/lifeupdate.mov"
+              autoPlay
+              loop
+              muted="true"
+              playsinline
+              width="30%"
+              height="auto"
+            ></video>
+            <video
+              src="/tsurunefanpage-1.mov"
+              autoPlay
+              loop
+              muted="true"
+              playsinline
+              width="30%"
+              height="auto"
+            ></video>
+            <video
+              src="/newpaperbirthdaytheme.mov"
+              autoPlay
+              loop
+              muted="true"
+              playsinline
+              width="30%"
+              height="auto"
+            ></video>
+          </div>
           <p>
             I coded some simple websites for my own use! Click to learn more
           </p>
