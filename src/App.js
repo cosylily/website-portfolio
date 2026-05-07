@@ -23,14 +23,25 @@ function App() {
       <div className="canvas">
         <div className="buttons">
           <div className="buttonsinbuttons">
-            <button onClick={changeHome}>Home</button>
+            <button onClick={changeHome} className="homebutton">
+              Home
+            </button>
             <button onClick={changeAbout} className="aboutbutton">
               About
             </button>
-            <button onClick={changeEducation}>Education</button>
-            <button onClick={changeCertificate}>Certificate</button>
-            <button onClick={changeWebsites}>Websites</button>
-            <button onClick={changeContact}>Contact</button>
+            <button onClick={changeEducation} className="edubutton">
+              Education
+            </button>
+            <button onClick={changeCertificate} className="certbutton">
+              Certificate
+            </button>
+            <button onClick={changeWebsites} className="webbutton">
+              Websites
+            </button>
+            <button onClick={changeContact} className="contactbutton">
+              Contact
+            </button>
+            <div className="papercomplete"></div>
           </div>
         </div>
         <div className="emptyspace">

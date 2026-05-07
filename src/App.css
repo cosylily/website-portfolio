@@ -57,7 +57,6 @@ header {
   border: 1px solid black;
   padding: 10px;
   font-size: 20px;
-  background-color: pink;
   border-radius: 10px;
   border-bottom-right-radius: 0px;
   border-bottom-left-radius: 0px;
@@ -75,10 +74,8 @@ header {
   border: 1px solid black;
   border-radius: 10px;
   border-top-left-radius: 0px;
-  background-image: linear-gradient(
-    rgba(246, 244, 239, 0.8),
-    rgba(246, 244, 239, 0.9)
-  );
+  background-color: pink;
+  border-top: 0px;
 }
 
 footer {
@@ -220,4 +217,23 @@ video {
 .edusectionbuttons {
   display: flex;
   justify-content: space-around;
+}
+.homebutton {
+  background-color: pink;
+  border-bottom: 0px !important;
+}
+.aboutbutton {
+  background-color: white;
+}
+.edubutton {
+  background-color: green;
+}
+.certbutton {
+  background-color: navy;
+}
+.webbutton {
+  background-color: red;
+}
+.contactbutton {
+  background-color: turquoise;
 }
