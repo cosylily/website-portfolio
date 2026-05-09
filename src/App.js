@@ -41,9 +41,9 @@ function App() {
             <button onClick={changeContact} className="contactbutton">
               Contact
             </button>
-            <div className="papercomplete"></div>
           </div>
         </div>
+
         <div className="emptyspace">
           <div className="introduction anchor">
             <Content name={content} />

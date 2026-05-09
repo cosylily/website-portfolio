@@ -48,6 +48,7 @@ header {
 .canvas {
   padding: 30px;
 }
+
 .buttonsinbuttons {
   padding: 0px;
   display: flex;
@@ -74,8 +75,8 @@ header {
   border: 1px solid black;
   border-radius: 10px;
   border-top-left-radius: 0px;
+  border-top-right-radius: 10px;
   background-color: pink;
-  border-top: 0px;
 }
 
 footer {
