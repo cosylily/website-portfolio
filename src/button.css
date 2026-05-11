@@ -1,0 +1,48 @@
+.buttonsinbuttons {
+  padding: 0px;
+  display: flex;
+  justify-content: flex-start;
+}
+.buttonsinbuttons button {
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 20px;
+  border-bottom: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  font-family: var(--title-font);
+}
+
+.buttonsinbuttons button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: pink;
+}
+.mainpagecontent button {
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.edusectionbuttons {
+  display: flex;
+  justify-content: space-around;
+}
+.homebutton {
+  background-color: pink;
+  border-bottom: 0px !important;
+}
+.aboutbutton {
+  background-color: white;
+}
+.edubutton {
+  background-color: green;
+}
+.certbutton {
+  background-color: navy;
+}
+.webbutton {
+  background-color: red;
+}
+.contactbutton {
+  background-color: turquoise;
+}
