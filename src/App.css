@@ -5,14 +5,11 @@
   --soft-pink: #ffe1e6;
 }
 .App {
-  text-align: center;
-  background-image: url(/src/paperbackground.jpeg);
-  background-repeat: no-repeat;
+  background-image: url("/public/gardenbackground.jpeg");
+  background-position: center;
+  background-repeat: none;
   background-size: cover;
-  padding-top: 40px;
-}
-.welcomeimg {
-  border-radius: 10px;
+  padding-top: 100px;
 }
 h2 {
   font-family: var(--title-font);
@@ -35,6 +32,19 @@ p {
   line-height: 100px;
   margin: 0 auto;
   font-family: var(--title-font);
+}
+.greeting {
+  font-size: 85px;
+  text-align: center;
+}
+.toppage {
+  padding: 50px;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.6)
+  );
+  max-width: 90%;
+  margin: 0 auto;
 }
 header img {
   padding: 10px;
