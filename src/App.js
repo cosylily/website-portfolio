@@ -2,6 +2,11 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
+      <div className="cloud">
+        <div className="cloudone"></div>
+        <div className="cloudtwo"></div>
+        <div className="cloudthree"></div>
+      </div>
       <div className="toppage">
         <h2 className="greeting">Greetings! Welcome to </h2>
         <div className="title">
