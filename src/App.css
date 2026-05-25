@@ -127,9 +127,9 @@ p {
 }
 .websiteSection {
   margin-top: 100px;
-  border-top-left-radius: 800px;
 
-  border-bottom-right-radius: 900px;
+  border-top-right-radius: 800px;
+  border-bottom-left-radius: 900px;
 }
 .websiteVids {
   display: grid;
@@ -144,6 +144,10 @@ p {
 }
 .educationSection {
   margin-top: 100px;
+  border-radius: 30px;
+}
+.display {
+  display: block;
 }
 footer {
   border: 1px solid black;

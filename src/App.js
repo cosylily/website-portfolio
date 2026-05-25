@@ -1,6 +1,11 @@
 import "./App.css";
 import Certs from "./Showcertificates.js";
+import { useState } from "react";
 function App() {
+  let [isActive, setActive] = useState(false);
+  function handleActive() {
+    setActive(!isActive);
+  }
   return (
     <div className="App">
       <div className="cloud">
@@ -117,9 +122,10 @@ function App() {
             Train-and-Place Programme 2025 (Incomplete)
           </p>
           <p>2025-2026 Digital Marketing with Acadium (Incomplete)</p>
-          <button>Click for certifications</button>
-          <div className=""></div>
-          <Certs />
+          <button onClick={handleActive}>Click for certifications</button>
+          <div className={isActive ? "display" : "d-none"}>
+            <Certs />
+          </div>
         </div>
       </div>
     </div>
