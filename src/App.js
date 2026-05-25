@@ -1,6 +1,7 @@
 import "./App.css";
 import Certs from "./Showcertificates.js";
 import { useState } from "react";
+import Footer from "./Bottompage.js";
 function App() {
   let [isActive, setActive] = useState(false);
   function handleActive() {
@@ -128,6 +129,7 @@ function App() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
