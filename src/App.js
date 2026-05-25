@@ -24,15 +24,18 @@ function App() {
         <div className="aboutSection">
           <h2>About Me!</h2>
           <div className="aboutMe">
-            <video
-              src="./syafiqahprofilelive.mov"
-              width="100%"
-              height="auto"
-              autoPlay
-              loop
-              muted="true"
-              playsinline
-            ></video>
+            <div className="aboutVideo">
+              <video
+                src="./syafiqahprofilelive.mov"
+                width="100%"
+                height="auto"
+                autoPlay
+                loop
+                muted="true"
+                playsinline
+              ></video>
+            </div>
+
             <div className="aboutIntro">
               <p>
                 Hello World! My name is Syafiqah, an aspiring junior website
@@ -58,6 +61,45 @@ function App() {
                 skills, I will be able to understand your idea and materialise
                 it.
               </p>
+            </div>
+          </div>
+        </div>
+        <div className="websiteSection section">
+          <h2 className="text-center">Websites Collection</h2>
+          <div className="websiteVids">
+            <div className="individualvideos">
+              <video
+                src="/lifeupdate.mov"
+                width="100%"
+                height="auto"
+                autoPlay
+                loop
+                muted="true"
+                playsinline
+              ></video>
+            </div>
+            <div className="individualvideos">
+              <video
+                src="
+            /tsurunefanpage-1.mov"
+                width="100%"
+                height="auto"
+                autoPlay
+                loop
+                muted="true"
+                playsinline
+              ></video>
+            </div>
+            <div className="individualvideos">
+              <video
+                src="/newpaperbirthdaytheme.mov"
+                width="100%"
+                height="auto"
+                autoPlay
+                loop
+                muted="true"
+                playsinline
+              ></video>
             </div>
           </div>
         </div>
