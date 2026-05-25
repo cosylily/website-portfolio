@@ -1,4 +1,5 @@
 import "./App.css";
+import Certs from "./Showcertificates.js";
 function App() {
   return (
     <div className="App">
@@ -65,7 +66,7 @@ function App() {
           </div>
         </div>
         <div className="websiteSection section">
-          <h2 className="text-center">Websites Collection</h2>
+          <h2 className="text-center pt-5">Websites Collection</h2>
           <div className="websiteVids">
             <div className="individualvideos">
               <video
@@ -102,6 +103,23 @@ function App() {
               ></video>
             </div>
           </div>
+        </div>
+        <div className="educationSection section">
+          <h2 className="text-center">Education and Certifications</h2>
+          <p>2020-2022 A-levels in Kolej Mara Seremban</p>
+          <p>
+            2022-2025 BA (Hons) Politics, Philosophy and Economics in University
+            of Manchester
+          </p>
+          <p>2024-2025 Front-end Diploma with Shecodes</p>
+          <p>
+            2025-2026 Prompt Engineering with TalentLabs MyMahir FSTC GBS
+            Train-and-Place Programme 2025 (Incomplete)
+          </p>
+          <p>2025-2026 Digital Marketing with Acadium (Incomplete)</p>
+          <button>Click for certifications</button>
+          <div className=""></div>
+          <Certs />
         </div>
       </div>
     </div>
