@@ -100,27 +100,41 @@ p {
   font-size: 240px;
   line-height: 250px;
 }
-.aboutSection {
-  padding: 20px;
+.aboutTitle {
+  display: flex;
+  justify-content: center;
 }
-.aboutSection h2 {
-  text-align: center;
+.abouts {
   font-size: 90px;
-  line-height: 200px;
 }
+.me {
+  padding-top: 73px;
+  margin-left: 10px;
+  font-size: 24px;
+}
+
 .aboutMe {
   display: grid;
   grid-template-columns: 1fr 2fr;
 }
+.aboutMe p {
+  font-size: 24px;
+}
 .aboutIntro {
   padding: 20px;
+}
+.aboutIntro video {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .aboutVideo {
   padding: 20px;
 }
-.aboutMe video {
+.aboutVideo video {
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .websiteVids {
