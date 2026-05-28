@@ -5,7 +5,14 @@
   --soft-pink: #ffe1e6;
 }
 .App {
-  background-image: url("/public/gardenbackground.jpeg");
+  background-image: linear-gradient(
+    rgb(170, 220, 242) 9%,
+    rgba(252, 246, 245, 0.6) 18%,
+    rgb(242, 198, 207) 37%,
+    rgb(244, 198, 198) 63%,
+    rgb(197, 204, 130) 80%,
+    rgb(151, 172, 59) 100%
+  );
   background-position: center;
   background-repeat: none;
   background-size: cover;
