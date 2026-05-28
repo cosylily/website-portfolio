@@ -6,8 +6,8 @@
 }
 .App {
   background-image: linear-gradient(
-    rgb(170, 220, 242) 9%,
-    rgba(252, 246, 245, 0.6) 18%,
+    rgb(170, 220, 242) 20%,
+    rgba(252, 246, 245, 0.6) 28%,
     rgb(242, 198, 207) 37%,
     rgb(244, 198, 198) 63%,
     rgb(197, 204, 130) 80%,
@@ -78,7 +78,10 @@ p {
   border-top-right-radius: 60px;
 }
 .title {
-  padding: 20px;
+  padding: 30px;
+  padding-top: 60px;
+  margin-top: 50px;
+  margin-bottom: 80px;
 }
 .smallletters {
   display: flex;
