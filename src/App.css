@@ -16,7 +16,7 @@
   background-position: center;
   background-repeat: none;
   background-size: cover;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .alltogether {
   padding: 50px;
@@ -24,10 +24,9 @@
     rgba(255, 255, 255, 0.5),
     rgba(255, 255, 255, 0.5)
   );
-  max-width: 95%;
+
   margin: 0 auto;
   border-radius: 20px;
-  border-top-left-radius: 0px;
 }
 h2 {
   font-family: var(--title-font);
@@ -38,24 +37,11 @@ h3 {
 }
 p {
   font-family: var(--text-font);
-  font-size: 20px;
 }
-.title {
+.clouds {
   display: flex;
-  justify-content: space-around;
-  padding: 10px;
+  justify-content: space-between;
 }
-.title h2 {
-  font-size: 100px;
-  line-height: 100px;
-  margin: 0 auto;
-  font-family: var(--title-font);
-}
-.greeting {
-  font-size: 85px;
-  text-align: center;
-}
-
 .cloud {
   display: flex;
   justify-content: start;
@@ -90,6 +76,26 @@ p {
   width: 50px;
   margin-top: 30px;
   border-top-right-radius: 60px;
+}
+.title {
+  padding: 20px;
+}
+.smallletters {
+  display: flex;
+  justify-content: left;
+  line-height: 40px;
+  margin-left: 20px;
+}
+.smallletters .name {
+  font-size: 40px;
+  margin-right: 20px;
+}
+.smallletters .logo {
+  border-radius: 10px;
+}
+.title .portfolio {
+  font-size: 240px;
+  line-height: 250px;
 }
 .aboutSection {
   padding: 20px;
