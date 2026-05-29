@@ -191,7 +191,10 @@ p {
 .websiteVids video {
   border-radius: 10px;
 }
-
+.videobutton {
+  border: 0px;
+  background-color: transparent;
+}
 .educationSection {
   margin-top: 100px;
   border-radius: 30px;

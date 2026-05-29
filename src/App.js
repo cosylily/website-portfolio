@@ -97,50 +97,58 @@ function App() {
 
             <div className="websiteVids">
               <div className="rowone">
-                <div className="individualvideos vidone">
-                  <video
-                    src="/lifeupdate.mov"
-                    width="100%"
-                    height="auto"
-                    autoPlay
-                    loop
-                    muted="true"
-                    playsinline
-                  ></video>
-                </div>
+                <button className="videobutton">
+                  <div className="individualvideos vidone">
+                    <video
+                      src="/lifeupdate.mov"
+                      width="100%"
+                      height="auto"
+                      autoPlay
+                      loop
+                      muted="true"
+                      playsinline
+                    ></video>
+                  </div>
+                </button>
+
                 <div className="emptyspaces"></div>
                 <div className="emptyspaces"></div>
               </div>
               <div className="rowtwo">
                 <div className="emptyspaces"></div>
-                <div className="individualvideos vidtwo">
-                  <video
-                    src="
+                <button className="videobutton">
+                  <div className="individualvideos vidtwo">
+                    <video
+                      src="
             /tsurunefanpage-1.mov"
-                    width="100%"
-                    height="auto"
-                    autoPlay
-                    loop
-                    muted="true"
-                    playsinline
-                  ></video>
-                </div>
+                      width="100%"
+                      height="auto"
+                      autoPlay
+                      loop
+                      muted="true"
+                      playsinline
+                    ></video>
+                  </div>
+                </button>
+
                 <div className="emptyspaces"></div>
               </div>
               <div className="rowthree">
                 <div className="emptyspaces"></div>
                 <div className="emptyspaces"></div>
-                <div className="individualvideos vidthree">
-                  <video
-                    src="/newpaperbirthdaytheme.mov"
-                    width="100%"
-                    height="auto"
-                    autoPlay
-                    loop
-                    muted="true"
-                    playsinline
-                  ></video>
-                </div>
+                <button className="videobutton">
+                  <div className="individualvideos vidthree">
+                    <video
+                      src="/newpaperbirthdaytheme.mov"
+                      width="100%"
+                      height="auto"
+                      autoPlay
+                      loop
+                      muted="true"
+                      playsinline
+                    ></video>
+                  </div>
+                </button>
               </div>
             </div>
           </div>
