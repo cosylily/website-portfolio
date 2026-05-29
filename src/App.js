@@ -73,8 +73,8 @@ function App() {
                   I graduated from University of Manchester under the degree of
                   Politics, Philosophy and Economics. For people whom may
                   wonder, I like prefer Philosophy the most followed by
-                  Economics (tried of this question if I am being honest {">_<"}
-                  ). I love crocheting and does traditional Japanese archery on
+                  Economics (tired of this question if I am being honest {">_<"}
+                  ). I love crocheting and do traditional Japanese archery on
                   Sundays.
                 </p>
                 <video
@@ -153,7 +153,11 @@ function App() {
             </div>
           </div>
           <div className="educationSection section">
-            <h2 className="text-center">Education and Certifications</h2>
+            <div className="educationTitle">
+              <p className="education">Education</p>
+              <p className="and text-center">&</p>
+              <p className="certifications text-end">Certifications</p>
+            </div>
             <p>2020-2022 A-levels in Kolej Mara Seremban</p>
             <p>
               2022-2025 BA (Hons) Politics, Philosophy and Economics in
