@@ -266,87 +266,12 @@ li a {
   font-family: var(--text-font);
   font-size: 25px;
 }
-ul {
-  list-style-type: none;
-}
-
-.scrollingbehaviour {
-  scroll-behavior: smooth;
-}
 
 .educationsection p {
   text-align: start;
-}
-.prompt {
-  font-family: var(--title-font);
-  font-size: 80px;
-  color: #122c4f;
-}
-.graduationimg {
-  border-radius: 10px;
-  margin: 20px;
 }
 
 .maintitle {
   font-size: 80px;
   padding: 30px;
-}
-.aboutmenu {
-  display: flex;
-  justify-content: space-evenly;
-  padding: 20px;
-  margin-bottom: 50px;
-}
-.aboutmenu a {
-  border-left: 3px solid black;
-  padding-left: 20px;
-  padding-top: 20px;
-  text-align: center;
-  font-size: 25px;
-  text-decoration: none;
-  color: pink;
-  font-family: var(--subtitle-font);
-  font-weight: bold;
-}
-.aboutmenu a:hover {
-  color: black;
-  transition: all ease 0.5s;
-  border-color: pink;
-}
-.aboutintro {
-  display: grid;
-  grid-template-columns: 70% 30%;
-  padding: 10px;
-  margin: 10px 0;
-}
-.aboutintro .video {
-  padding: 30px;
-  padding-top: 0px;
-}
-.aboutintro video {
-  border-radius: 10px;
-  border: 1px solid black;
-}
-
-#aboutintroduction,
-#aboutskills,
-#aboutlanguage,
-#abouthobby {
-  padding: 10px;
-  margin-top: 60px;
-}
-.contactsection ul li {
-  font-size: 20px;
-}
-.contactsection ul li a {
-  font-size: 20px;
-}
-
-.groupvid {
-  display: flex;
-  justify-content: space-around;
-}
-.mainpagecontent h2,
-.mainpagecontent p {
-  text-align: left;
 }
