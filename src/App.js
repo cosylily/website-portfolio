@@ -44,7 +44,7 @@ function App() {
           </div>
         </div>
         <div>
-          <div className="aboutSection">
+          <div className="aboutSection section">
             <div className="aboutTitle">
               <p className="abouts">About</p>
               <p className="me">Me</p>
@@ -89,7 +89,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="websiteSection">
+          <div className="websiteSection section">
             <div className="websiteTitle">
               <p className="website">Website</p>
               <p className="collection">Collection</p>
@@ -170,12 +170,12 @@ function App() {
             </p>
             <p>2025-2026 Digital Marketing with Acadium (Incomplete)</p>
             <button onClick={handleActive} className="certbutton">
-              <p className={isActive ? "certnone" : "certdis"}>
+              <div className={isActive ? "certnone" : "certdis"}>
                 Click for certifications
-              </p>
-              <p className={isActive ? "updis" : "upnone"}>
+              </div>
+              <div className={isActive ? "updis" : "upnone"}>
                 ⏫ Click to close this section
-              </p>
+              </div>
             </button>
             <div className={isActive ? "display" : "d-none"}>
               <Certs />
