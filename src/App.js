@@ -72,8 +72,8 @@ function App() {
                 <p>
                   I graduated from University of Manchester under the degree of
                   Politics, Philosophy and Economics. For people whom may
-                  wonder, I like prefer Philosophy the most followed by
-                  Economics (tired of this question if I am being honest {">_<"}
+                  wonder, I prefer Philosophy the most followed by Economics
+                  (tired of this question if I am being honest {">_<"}
                   ). I love crocheting and do traditional Japanese archery on
                   Sundays.
                 </p>
@@ -169,7 +169,14 @@ function App() {
               Train-and-Place Programme 2025 (Incomplete)
             </p>
             <p>2025-2026 Digital Marketing with Acadium (Incomplete)</p>
-            <button onClick={handleActive}>Click for certifications</button>
+            <button onClick={handleActive} className="certbutton">
+              <p className={isActive ? "certnone" : "certdis"}>
+                Click for certifications
+              </p>
+              <p className={isActive ? "updis" : "upnone"}>
+                ⏫ Click to close this section
+              </p>
+            </button>
             <div className={isActive ? "display" : "d-none"}>
               <Certs />
             </div>

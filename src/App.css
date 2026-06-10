@@ -26,7 +26,8 @@
   );
 
   margin: 0 auto;
-  border-radius: 20px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
 }
 h2 {
   font-family: var(--title-font);
@@ -212,6 +213,29 @@ p {
 }
 .display {
   display: block;
+  height: 500px;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  padding: 50px;
+  margin: 20px 0;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.6)
+  );
+  border-radius: 20px;
+  scrollbar-width: none;
+}
+.certnone {
+  display: none;
+}
+.certdis {
+  display: block;
+}
+.upnone {
+  display: none;
+}
+.updis {
+  display: block;
 }
 footer {
   border: 1px solid black;
@@ -219,7 +243,6 @@ footer {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   background-color: white;
-  margin-top: 90px;
 }
 .footertitle {
   display: flex;
