@@ -158,17 +158,20 @@ function App() {
               <p className="and text-center">&</p>
               <p className="certifications text-end">Certifications</p>
             </div>
-            <p>2020-2022 A-levels in Kolej Mara Seremban</p>
-            <p>
-              2022-2025 BA (Hons) Politics, Philosophy and Economics in
-              University of Manchester
-            </p>
-            <p>2024-2025 Front-end Diploma with Shecodes</p>
-            <p>
-              2025-2026 Prompt Engineering with TalentLabs MyMahir FSTC GBS
-              Train-and-Place Programme 2025 (Incomplete)
-            </p>
-            <p>2025-2026 Digital Marketing with Acadium (Incomplete)</p>
+            <div className="listofedu">
+              <p>2020-2022 A-levels in Kolej Mara Seremban</p>
+              <p>
+                2022-2025 BA (Hons) Politics, Philosophy and Economics in
+                University of Manchester
+              </p>
+              <p>2024-2025 Front-end Diploma with Shecodes</p>
+              <p>
+                2025-2026 Prompt Engineering with TalentLabs MyMahir FSTC GBS
+                Train-and-Place Programme 2025 (Incomplete)
+              </p>
+              <p>2025-2026 Digital Marketing with Acadium (Incomplete)</p>
+            </div>
+
             <button onClick={handleActive} className="certbutton">
               <div className={isActive ? "certnone" : "certdis"}>
                 Click for certifications
