@@ -2,6 +2,8 @@ import "./App.css";
 import Certs from "./Showcertificates.js";
 import { useState } from "react";
 import Footer from "./Bottompage.js";
+import DisplayWeb from "./Websites.js";
+
 function App() {
   let [isActive, setActive] = useState(false);
   function handleActive() {
@@ -96,52 +98,7 @@ function App() {
             </div>
 
             <div className="websiteVids">
-              <div className="rowone">
-                <button className="videobutton update">
-                  <div className="individualvideos vidone">
-                    <video
-                      src="/lifeupdate.mov"
-                      width="100%"
-                      height="auto"
-                      autoPlay
-                      loop
-                      muted="true"
-                      playsinline
-                    ></video>
-                  </div>
-                </button>
-              </div>
-              <div className="rowtwo">
-                <button className="videobutton tsurune">
-                  <div className="individualvideos vidtwo">
-                    <video
-                      src="
-            /tsurunefanpage-1.mov"
-                      width="100%"
-                      height="auto"
-                      autoPlay
-                      loop
-                      muted="true"
-                      playsinline
-                    ></video>
-                  </div>
-                </button>
-              </div>
-              <div className="rowthree">
-                <button className="videobutton birthday">
-                  <div className="individualvideos vidthree">
-                    <video
-                      src="/newpaperbirthdaytheme.mov"
-                      width="100%"
-                      height="auto"
-                      autoPlay
-                      loop
-                      muted="true"
-                      playsinline
-                    ></video>
-                  </div>
-                </button>
-              </div>
+              <DisplayWeb />
             </div>
           </div>
           <div className="educationSection section">

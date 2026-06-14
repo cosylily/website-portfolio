@@ -155,54 +155,7 @@ p {
   text-align: center;
   line-height: 90px;
 }
-.rowone,
-.rowtwo,
-.rowthree {
-  display: flex;
-}
-.vidone,
-.vidtwo,
-.vidthree {
-  max-width: 45%;
-}
-.rowone {
-  justify-content: start;
-}
 
-.rowtwo {
-  justify-content: center;
-}
-.rowthree {
-  justify-content: end;
-}
-.emptyspaces {
-  width: 100%;
-}
-.vidone,
-.vidtwo,
-.vidthree {
-  padding: 50px;
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.5),
-    rgba(255, 255, 255, 0.5)
-  );
-}
-.vidone,
-.vidthree {
-  border-top-left-radius: 200px;
-  border-bottom-right-radius: 200px;
-}
-.vidtwo {
-  border-top-right-radius: 200px;
-  border-bottom-left-radius: 200px;
-}
-.websiteVids video {
-  border-radius: 10px;
-}
-.videobutton {
-  border: 0px;
-  background-color: transparent;
-}
 .education,
 .certifications {
   font-size: 90px;

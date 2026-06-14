@@ -20,107 +20,55 @@ export default function Displaywebsites() {
   } else {
     return (
       <div>
-        <h2 className="maintitle">Websites</h2>
-        <p>Here are three websites that I coded recently:</p>
-        <div className="portfolio">
-          {" "}
-          <div className="lifeupdate shortsec">
-            <video
-              src="/lifeupdate.mov"
-              width="50%"
-              height="auto"
-              autoPlay
-              loop
-              muted="true"
-              playsinline
-            ></video>
-            <p>
-              As we live far away from each other, my friend has organised a
-              meeting for us to gather online and present our life updates. I
-              thought to myself that creating a presentation would be cliche, so
-              I created a website instead {">.<"}
-            </p>
-            <div className="webbuttons">
-              {" "}
-              <button className="learnmorebutton" onClick={displayOne}>
-                Learn more
-              </button>
-              <a
-                href="https://syafsupdate.netlify.app/"
-                className="weblink"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Visit Website
-              </a>
+        <div className="rowone">
+          <button className="videobutton update">
+            <div className="individualvideos vidone">
+              <video
+                src="/lifeupdate.mov"
+                width="100%"
+                height="auto"
+                autoPlay
+                loop
+                muted="true"
+                playsinline
+              ></video>
             </div>
-          </div>
-          <div className="fanpage shortsec">
-            <video
-              src="
-            /tsurunefanpage-1.mov"
-              width="50%"
-              height="auto"
-              autoPlay
-              loop
-              muted="true"
-              playsinline
-            ></video>
-            <p>
-              After practicing Kyudo, I wanted to know more about it and as I
-              was into anime at the time, I stumbled upon this anime called
-              Tsurune. Tsurune is an amazing sports anime that talks about
-              Kyudo.
-            </p>
-            <div className="webbuttons">
-              {" "}
-              <button className="learnmorebutton" onClick={displayTwo}>
-                Learn more
-              </button>
-              <a
-                href="https://tsurunefanpage.netlify.app/"
-                className="weblink"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Visit Website
-              </a>
+          </button>
+          <div className="emptyspace"></div>
+          <div className="emptyspace"></div>
+        </div>
+        <div className="rowtwo">
+          <div className="emptyspace"></div>
+          <button className="videobutton tsurune">
+            <div className="individualvideos vidtwo">
+              <video
+                src="/tsurunefanpage-1.mov"
+                width="100%"
+                height="auto"
+                autoPlay
+                loop
+                muted="true"
+                playsinline
+              ></video>
             </div>
-          </div>
-          <div className="lifeupdate shortsec">
-            <video
-              src="/newpaperbirthdaytheme.mov"
-              width="50%"
-              height="auto"
-              autoPlay
-              loop
-              muted="true"
-              playsinline
-            ></video>
-            <p>
-              Upon thinking what to give my friend for her birthday, I decided
-              to code a website for her. We had lesser time to meet and there is
-              nothing better than giving a digital gift. While using my
-              specialty, I let her know that she is special to me in this
-              website. This is not the exact website I coded for my friend as I
-              would like to protect her privacy. I replaced her information and
-              pictures to something else.
-            </p>
-            <div className="webbuttons">
-              {" "}
-              <button className="learnmorebutton" onClick={displayThree}>
-                Learn more
-              </button>
-              <a
-                href="http://birthdaycatnews.netlify.app/"
-                className="weblink"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Visit Website
-              </a>
+          </button>
+          <div className="emptyspace"></div>
+        </div>
+        <div className="rowthree">
+          <div className="emptyspace"></div> <div className="emptyspace"></div>
+          <button className="videobutton birthday">
+            <div className="individualvideos vidthree">
+              <video
+                src="/newpaperbirthdaytheme.mov"
+                width="100%"
+                height="auto"
+                autoPlay
+                loop
+                muted="true"
+                playsinline
+              ></video>
             </div>
-          </div>
+          </button>
         </div>
       </div>
     );

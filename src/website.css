@@ -1,54 +1,43 @@
-.webbuttons {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 0 auto;
+.vidone,
+.vidtwo,
+.vidthree {
+  padding: 50px;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  );
 }
-.learnmorebutton {
-  padding: 10px 0;
-  width: 50%;
-  text-align: center !important;
+.vidone,
+.vidthree {
+  border-top-left-radius: 200px;
+  border-bottom-right-radius: 200px;
+}
+.vidtwo {
+  border-top-right-radius: 200px;
+  border-bottom-left-radius: 200px;
+}
+.websiteVids video {
   border-radius: 10px;
-  margin: 30px auto;
 }
-.weblink {
-  border: 1px solid;
-  padding: 30px;
-  width: 50%;
-  text-decoration: none;
-  border-radius: 10px;
-  margin: 30px auto;
+.videobutton {
+  border: 0px;
+  background-color: transparent;
 }
-
-li p {
-  font-size: 15px;
-}
-.section {
-  margin-top: 30px;
-  text-align: left;
-}
-.codinglanguage,
-.designmethod,
-.sources {
-  display: flex;
-}
-
-.codinglanguage p,
-.designmethod p,
-.sources p {
-  margin-left: 10px;
-  margin-top: 8px;
-}
-
-.backbutton {
-  display: flex;
-  justify-content: left;
-}
-
-.shortsec {
-  padding: 20px;
-  margin: 30px 0;
-}
-.portfolio {
+.rowone,
+.rowtwo,
+.rowthree {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  margin: 50px 0;
+}
+.rowone {
+  grid-template-columns: 2fr 1fr 1fr;
+}
+.rowtwo {
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.rowthree {
+  grid-template-columns: 1fr 1fr 2fr;
+}
+.emptyspace {
+  width: 100%;
 }
