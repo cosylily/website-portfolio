@@ -97,7 +97,7 @@ function App() {
 
             <div className="websiteVids">
               <div className="rowone">
-                <button className="videobutton">
+                <button className="videobutton update">
                   <div className="individualvideos vidone">
                     <video
                       src="/lifeupdate.mov"
@@ -110,13 +110,9 @@ function App() {
                     ></video>
                   </div>
                 </button>
-
-                <div className="emptyspaces"></div>
-                <div className="emptyspaces"></div>
               </div>
               <div className="rowtwo">
-                <div className="emptyspaces"></div>
-                <button className="videobutton">
+                <button className="videobutton tsurune">
                   <div className="individualvideos vidtwo">
                     <video
                       src="
@@ -130,13 +126,9 @@ function App() {
                     ></video>
                   </div>
                 </button>
-
-                <div className="emptyspaces"></div>
               </div>
               <div className="rowthree">
-                <div className="emptyspaces"></div>
-                <div className="emptyspaces"></div>
-                <button className="videobutton">
+                <button className="videobutton birthday">
                   <div className="individualvideos vidthree">
                     <video
                       src="/newpaperbirthdaytheme.mov"

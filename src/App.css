@@ -158,17 +158,22 @@ p {
 .rowone,
 .rowtwo,
 .rowthree {
-  display: grid;
-  margin-bottom: 50px;
+  display: flex;
+}
+.vidone,
+.vidtwo,
+.vidthree {
+  max-width: 45%;
 }
 .rowone {
-  grid-template-columns: 2fr 1fr 1fr;
+  justify-content: start;
 }
+
 .rowtwo {
-  grid-template-columns: 1fr 2fr 1fr;
+  justify-content: center;
 }
 .rowthree {
-  grid-template-columns: 1fr 1fr 2fr;
+  justify-content: end;
 }
 .emptyspaces {
   width: 100%;
