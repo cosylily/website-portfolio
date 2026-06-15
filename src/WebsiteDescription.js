@@ -46,7 +46,13 @@ export default function Descp(props) {
         <div className="webinfo">
           {" "}
           <div className="descriptions">
-            <h2 className="">Syaf's life update website</h2>
+            <a
+              href="syafsupdate.netlify.app"
+              alt="Click here to visit the website!"
+              className="weblink"
+            >
+              <h2 className="">Syaf's life update website</h2>
+            </a>
             <h3>About website:</h3>
             <p>
               The website is designed and coded to provide my friends with my
@@ -106,9 +112,11 @@ export default function Descp(props) {
               </li>
             </ul>
           </div>
-          <a href="https://github.com/cosylily/lily-update">
-            Go to GitHub for the code
-          </a>
+          <div className="button">
+            <a href="https://github.com/cosylily/lily-update">
+              Go to GitHub for the code
+            </a>
+          </div>
         </div>
       </div>
     );

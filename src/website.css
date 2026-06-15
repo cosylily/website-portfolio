@@ -64,6 +64,15 @@ p {
   border-top-left-radius: 0px;
   margin-left: 50px;
 }
+.weblink {
+  color: #122c4f;
+}
+.weblink:hover {
+  color: white;
+}
+.weblink:hover h2 {
+  color: white;
+}
 .challenges li {
   list-style-type: decimal;
   padding: 0px !important;
