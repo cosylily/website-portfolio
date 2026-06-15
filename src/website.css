@@ -1,3 +1,6 @@
+p {
+  font-size: 18px;
+}
 .vidone,
 .vidtwo,
 .vidthree {
@@ -60,4 +63,8 @@
   border-radius: 100px;
   border-top-left-radius: 0px;
   margin-left: 50px;
+}
+.challenges li {
+  list-style-type: decimal;
+  padding: 0px !important;
 }

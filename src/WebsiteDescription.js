@@ -46,7 +46,7 @@ export default function Descp(props) {
         <div className="webinfo">
           {" "}
           <div className="descriptions">
-            <h2 className="p-2 m-2">Syaf's life update website</h2>
+            <h2 className="">Syaf's life update website</h2>
             <h3>About website:</h3>
             <p>
               The website is designed and coded to provide my friends with my
