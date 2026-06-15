@@ -5,8 +5,8 @@ export default function Descp(props) {
   if (props.show === "firstwebsite") {
     return (
       <div className="firstsection">
-        <div className="topsection">
-          <div className="vidone individualvideos">
+        <div className="leftsection">
+          <div className="vidone individualvideos mb-5">
             <video
               src="lifeupdate.mov"
               width="100%"
@@ -18,8 +18,34 @@ export default function Descp(props) {
               className="m-2"
             ></video>
           </div>
-
-          <div className="descriptions section">
+          <div className="vidtwo individualvideos mb-5">
+            <video
+              src="/tsurunefanpage-1.mov"
+              width="100%"
+              height="auto"
+              autoPlay
+              loop
+              muted="true"
+              playsinline
+              className="m-2"
+            ></video>
+          </div>
+          <div className="vidthree individualvideos">
+            <video
+              src="/newpaperbirthdaytheme.mov"
+              width="100%"
+              height="auto"
+              autoPlay
+              loop
+              muted="true"
+              playsinline
+              className="m-2"
+            ></video>
+          </div>
+        </div>
+        <div className="webinfo">
+          {" "}
+          <div className="descriptions">
             <h2 className="p-2 m-2">Syaf's life update website</h2>
             <h3>About website:</h3>
             <p>
@@ -31,60 +57,59 @@ export default function Descp(props) {
               and have many information.
             </p>
           </div>
+          <div className="codinglanguage">
+            <h3>Languages used:</h3>
+            <p>HTML and CSS</p>
+          </div>
+          <div className="designmethod">
+            <h3>Web design method:</h3> <p>Paper and Pen (Wireframe)</p>
+          </div>
+          <div className="sources">
+            <h3>Material sources:</h3>
+            <p>
+              Pinterest for background images. XiaoHongShu for colour palette.
+              And some are my own photos.
+            </p>
+          </div>
+          <div className="challenges">
+            <h3>Challenges faced:</h3>
+            <ul>
+              <li>
+                <h4>Lack of details when designing</h4>
+                <p>
+                  I am used to using wireframe and as someone who is not very
+                  artistic, I face challenges when designing a website. Before
+                  having a specific design, I rushed into coding the page as I
+                  had time limitations and lack of design ideas. The design
+                  eventually came to me as I code but I had to make many changes
+                  along the way.
+                </p>
+              </li>
+              <li>
+                <h4>Colour matching</h4>
+                <p>
+                  Even though I had a colour palette to refer to, I had a hard
+                  time setting the colour for the words and the backgrounds. To
+                  ensuring clarity and visibility. However, it was not a big
+                  problem as I had people helping me with determining if the
+                  colour matching was okay {">_<"}
+                </p>
+              </li>
+              <li>
+                <h4>Flow of webpage</h4>
+                <p>
+                  As it had to look like a presentation while being a webpage
+                  itself, it was quite difficult for me to design the flow of
+                  the website. Fortunately, I quickly figure out how the flow
+                  should work which saved quite lots of time.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <a href="https://github.com/cosylily/lily-update">
+            Go to GitHub for the code
+          </a>
         </div>
-
-        <div className="codinglanguage section">
-          <h3>Languages used:</h3>
-          <p>HTML and CSS</p>
-        </div>
-        <div className="designmethod section">
-          <h3>Web design method:</h3> <p>Paper and Pen (Wireframe)</p>
-        </div>
-        <div className="sources section">
-          <h3>Material sources:</h3>
-          <p>
-            Pinterest for background images. XiaoHongShu for colour palette. And
-            some are my own photos.
-          </p>
-        </div>
-        <div className="section challenges">
-          <h3>Challenges faced:</h3>
-          <ul>
-            <li>
-              <h4>Lack of details when designing</h4>
-              <p>
-                I am used to using wireframe and as someone who is not very
-                artistic, I face challenges when designing a website. Before
-                having a specific design, I rushed into coding the page as I had
-                time limitations and lack of design ideas. The design eventually
-                came to me as I code but I had to make many changes along the
-                way.
-              </p>
-            </li>
-            <li>
-              <h4>Colour matching</h4>
-              <p>
-                Even though I had a colour palette to refer to, I had a hard
-                time setting the colour for the words and the backgrounds. To
-                ensuring clarity and visibility. However, it was not a big
-                problem as I had people helping me with determining if the
-                colour matching was okay {">_<"}
-              </p>
-            </li>
-            <li>
-              <h4>Flow of webpage</h4>
-              <p>
-                As it had to look like a presentation while being a webpage
-                itself, it was quite difficult for me to design the flow of the
-                website. Fortunately, I quickly figure out how the flow should
-                work which saved quite lots of time.
-              </p>
-            </li>
-          </ul>
-        </div>
-        <a href="https://github.com/cosylily/lily-update">
-          Go to GitHub for the code
-        </a>
       </div>
     );
   }

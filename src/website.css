@@ -1,7 +1,7 @@
 .vidone,
 .vidtwo,
 .vidthree {
-  padding: 50px;
+  padding: 20px;
   background-image: linear-gradient(
     rgba(255, 255, 255, 0.5),
     rgba(255, 255, 255, 0.5)
@@ -44,7 +44,20 @@
 .emptyspace {
   width: 100%;
 }
-.topsection {
+.firstsection {
   display: grid;
   grid-template-columns: 1fr 2fr;
+}
+.webinfo {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  height: 1000px;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  );
+  padding: 50px;
+  border-radius: 100px;
+  border-top-left-radius: 0px;
+  margin-left: 50px;
 }
