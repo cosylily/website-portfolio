@@ -38,6 +38,13 @@
 .rowthree {
   grid-template-columns: 1fr 1fr 2fr;
 }
+.individualvideos {
+  width: 100%;
+}
 .emptyspace {
   width: 100%;
+}
+.topsection {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }

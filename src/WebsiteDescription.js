@@ -5,28 +5,34 @@ export default function Descp(props) {
   if (props.show === "firstwebsite") {
     return (
       <div className="firstsection">
-        <h2 className="p-2 m-2">Syaf's life update website</h2>
-        <video
-          src="lifeupdate.mov"
-          width="50%"
-          height="auto"
-          autoPlay
-          loop
-          muted="true"
-          playsinline
-          className="m-2"
-        ></video>
-        <div className="descriptions section ">
-          <h3>About website:</h3>
-          <p>
-            The website is designed and coded to provide my friends with my
-            current life update. When arranging the online meeting, we were
-            required to create a slide presentation but I thought it was too
-            simple, so I have decided to code the page. This has rebuilt my
-            thinking towards websites as it does not have to be really complex
-            and have many information.
-          </p>
+        <div className="topsection">
+          <div className="vidone individualvideos">
+            <video
+              src="lifeupdate.mov"
+              width="100%"
+              height="auto"
+              autoPlay
+              loop
+              muted="true"
+              playsinline
+              className="m-2"
+            ></video>
+          </div>
+
+          <div className="descriptions section">
+            <h2 className="p-2 m-2">Syaf's life update website</h2>
+            <h3>About website:</h3>
+            <p>
+              The website is designed and coded to provide my friends with my
+              current life update. When arranging the online meeting, we were
+              required to create a slide presentation but I thought it was too
+              simple, so I have decided to code the page. This has rebuilt my
+              thinking towards websites as it does not have to be really complex
+              and have many information.
+            </p>
+          </div>
         </div>
+
         <div className="codinglanguage section">
           <h3>Languages used:</h3>
           <p>HTML and CSS</p>

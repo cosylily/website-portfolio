@@ -21,7 +21,7 @@ export default function Displaywebsites() {
     return (
       <div>
         <div className="rowone">
-          <button className="videobutton update">
+          <button className="videobutton update" onClick={displayOne}>
             <div className="individualvideos vidone">
               <video
                 src="/lifeupdate.mov"
@@ -39,7 +39,7 @@ export default function Displaywebsites() {
         </div>
         <div className="rowtwo">
           <div className="emptyspace"></div>
-          <button className="videobutton tsurune">
+          <button className="videobutton tsurune" onClick={displayTwo}>
             <div className="individualvideos vidtwo">
               <video
                 src="/tsurunefanpage-1.mov"
@@ -56,7 +56,7 @@ export default function Displaywebsites() {
         </div>
         <div className="rowthree">
           <div className="emptyspace"></div> <div className="emptyspace"></div>
-          <button className="videobutton birthday">
+          <button className="videobutton birthday" onClick={displayThree}>
             <div className="individualvideos vidthree">
               <video
                 src="/newpaperbirthdaytheme.mov"
