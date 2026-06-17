@@ -18,29 +18,19 @@ export default function Descp(props) {
               className="m-2"
             ></video>
           </div>
-          <div className="vidtwo individualvideos mb-5">
-            <video
-              src="/tsurunefanpage-1.mov"
+          <div className="mb-5 vidtwo">
+            <img
+              src="/tsurunepic.png"
+              alt="Main page of Tsurune Page"
               width="100%"
-              height="auto"
-              autoPlay
-              loop
-              muted="true"
-              playsinline
-              className="m-2"
-            ></video>
+            />
           </div>
-          <div className="vidthree individualvideos">
-            <video
-              src="/newpaperbirthdaytheme.mov"
+          <div className="vidthree">
+            <img
+              src="/newspic.png"
+              alt="Main page of Birthcat Newspaper"
               width="100%"
-              height="auto"
-              autoPlay
-              loop
-              muted="true"
-              playsinline
-              className="m-2"
-            ></video>
+            />
           </div>
         </div>
         <div className="webinfo">

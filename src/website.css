@@ -77,3 +77,6 @@ p {
   list-style-type: decimal;
   padding: 0px !important;
 }
+img {
+  border-radius: 10px;
+}
