@@ -68,7 +68,7 @@ export default function Descp(props) {
               And some are my own photos.
             </p>
           </div>
-          <div className="challenges">
+          <div className="challenges mb-5">
             <h3>Challenges faced:</h3>
             <ul>
               <li>

@@ -80,3 +80,23 @@ p {
 img {
   border-radius: 10px;
 }
+.button {
+  border: 1px solid black;
+  padding: 10px;
+  width: max-content;
+  border-radius: 10px;
+  margin: 0 auto;
+  background-color: black;
+}
+.button a {
+  color: rgb(242, 198, 207);
+  text-decoration: none;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(242, 198, 207);
+  border-color: rgb(242, 198, 207);
+}
+.button:hover a {
+  color: black;
+}
