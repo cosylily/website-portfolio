@@ -50,6 +50,7 @@ export default function Descp(props) {
               href="syafsupdate.netlify.app"
               alt="Click here to visit the website!"
               className="weblink"
+              target="_blank"
             >
               <h2 className="">Syaf's life update website</h2>
             </a>
