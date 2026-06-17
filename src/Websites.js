@@ -11,9 +11,6 @@ export default function Displaywebsites() {
   if (ready) {
     return (
       <div>
-        <button onClick={displayNormal} className="backbutton">
-          Back
-        </button>
         <Descp show={description} />
       </div>
     );
@@ -80,9 +77,6 @@ export default function Displaywebsites() {
   function displayTwo() {
     setReady(true);
     setDescription("secondwebsite");
-  }
-  function displayNormal() {
-    setReady(false);
   }
   function displayThree() {
     setReady(true);

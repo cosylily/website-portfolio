@@ -1,36 +1,44 @@
-import React from "react";
+import React, { useState } from "react";
 import "./website.css";
 
 export default function Descp(props) {
-  if (props.show === "firstwebsite") {
+  let [website, setwebsite] = useState();
+  if (props.show === "firstwebsite" || website === "update") {
     return (
       <div className="firstsection">
         <div className="leftsection">
           <div className="vidone individualvideos mb-5">
-            <video
-              src="lifeupdate.mov"
-              width="100%"
-              height="auto"
-              autoPlay
-              loop
-              muted="true"
-              playsinline
-              className="m-2"
-            ></video>
+            <button onClick={displayupdate}>
+              <video
+                src="lifeupdate.mov"
+                width="100%"
+                height="auto"
+                autoPlay
+                loop
+                muted="true"
+                playsinline
+                className="m-2"
+              ></video>
+            </button>
           </div>
           <div className="mb-5 vidtwo">
-            <img
-              src="/tsurunepic.png"
-              alt="Main page of Tsurune Page"
-              width="100%"
-            />
+            <button onClick={displaytsurune}>
+              <img
+                src="/tsurunepic.png"
+                alt="Main page of Tsurune Page"
+                width="100%"
+              />
+            </button>
           </div>
           <div className="vidthree">
-            <img
-              src="/newspic.png"
-              alt="Main page of Birthcat Newspaper"
-              width="100%"
-            />
+            <button onClick={displaynews}>
+              {" "}
+              <img
+                src="/newspic.png"
+                alt="Main page of Birthcat Newspaper"
+                width="100%"
+              />
+            </button>
           </div>
         </div>
         <div className="webinfo">
@@ -112,7 +120,7 @@ export default function Descp(props) {
       </div>
     );
   }
-  if (props.show === "secondwebsite") {
+  if (props.show === "secondwebsite" || website === "tsurune") {
     return (
       <div className="secondsection">
         <h2 className="p-2 m-2">Tsurune Fan Page</h2>
@@ -198,7 +206,7 @@ export default function Descp(props) {
       </div>
     );
   }
-  if (props.show === "thirdwebsite") {
+  if (props.show === "thirdwebsite" || website === "newspaper") {
     return (
       <div className="thirdsection">
         <h2 className="p-2 m-2">Newspaper themed birthday website</h2>
@@ -266,5 +274,14 @@ export default function Descp(props) {
         </a>
       </div>
     );
+  }
+  function displayupdate() {
+    setwebsite("update");
+  }
+  function displaytsurune() {
+    setwebsite("tsurune");
+  }
+  function displaynews() {
+    setwebsite("newspaper");
   }
 }
