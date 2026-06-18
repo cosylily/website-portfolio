@@ -1,10 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import "./website.css";
 
 export default function Descp(props) {
-  let [website, setwebsite] = useState();
-
-  if (props.show === "firstwebsite" || website === "update") {
+  if (props.show === "firstwebsite") {
     return (
       <div>
         <div className="webinfo">
@@ -85,7 +83,7 @@ export default function Descp(props) {
       </div>
     );
   }
-  if (props.show === "secondwebsite" || website === "tsurune") {
+  if (props.show === "secondwebsite") {
     return (
       <div className="secondsection">
         <h2 className="p-2 m-2">Tsurune Fan Page</h2>
@@ -171,7 +169,7 @@ export default function Descp(props) {
       </div>
     );
   }
-  if (props.show === "thirdwebsite" || website === "newspaper") {
+  if (props.show === "thirdwebsite") {
     return (
       <div className="thirdsection">
         <h2 className="p-2 m-2">Newspaper themed birthday website</h2>
