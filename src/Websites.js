@@ -11,7 +11,7 @@ export default function Displaywebsites() {
   if (ready) {
     return (
       <div>
-        <Menu show={description} />
+        <Menu name={description} />
       </div>
     );
   } else {

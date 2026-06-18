@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import Descp from "./WebsiteDescription";
 
 export default function Menu(props) {
+  let [website, setwebsite] = useState();
   return (
     <div className="firstsection">
       <div className="leftsection">
         <div className="vidone individualvideos mb-5">
-          <button>
+          <button onClick={displayUpdate}>
             <video
               src="lifeupdate.mov"
               width="100%"
@@ -20,7 +21,7 @@ export default function Menu(props) {
           </button>
         </div>
         <div className="mb-5 vidtwo">
-          <button>
+          <button onClick={displayTsurune}>
             <img
               src="/tsurunepic.png"
               alt="Main page of Tsurune Page"
@@ -29,8 +30,7 @@ export default function Menu(props) {
           </button>
         </div>
         <div className="vidthree">
-          <button>
-            {" "}
+          <button onClick={displayNews}>
             <img
               src="/newspic.png"
               alt="Main page of Birthcat Newspaper"
@@ -40,7 +40,16 @@ export default function Menu(props) {
         </div>
       </div>
 
-      <Descp show={props.show} />
+      <Descp show={props.name} orthis={website} />
     </div>
   );
+  function displayUpdate() {
+    setwebsite("update");
+  }
+  function displayTsurune() {
+    setwebsite("tsurune");
+  }
+  function displayNews() {
+    setwebsite("news");
+  }
 }
