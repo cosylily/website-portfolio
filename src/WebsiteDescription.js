@@ -3,44 +3,10 @@ import "./website.css";
 
 export default function Descp(props) {
   let [website, setwebsite] = useState();
+
   if (props.show === "firstwebsite" || website === "update") {
     return (
       <div className="firstsection">
-        <div className="leftsection">
-          <div className="vidone individualvideos mb-5">
-            <button onClick={displayupdate}>
-              <video
-                src="lifeupdate.mov"
-                width="100%"
-                height="auto"
-                autoPlay
-                loop
-                muted="true"
-                playsinline
-                className="m-2"
-              ></video>
-            </button>
-          </div>
-          <div className="mb-5 vidtwo">
-            <button onClick={displaytsurune}>
-              <img
-                src="/tsurunepic.png"
-                alt="Main page of Tsurune Page"
-                width="100%"
-              />
-            </button>
-          </div>
-          <div className="vidthree">
-            <button onClick={displaynews}>
-              {" "}
-              <img
-                src="/newspic.png"
-                alt="Main page of Birthcat Newspaper"
-                width="100%"
-              />
-            </button>
-          </div>
-        </div>
         <div className="webinfo">
           {" "}
           <div className="descriptions">
@@ -274,14 +240,5 @@ export default function Descp(props) {
         </a>
       </div>
     );
-  }
-  function displayupdate() {
-    setwebsite("update");
-  }
-  function displaytsurune() {
-    setwebsite("tsurune");
-  }
-  function displaynews() {
-    setwebsite("newspaper");
   }
 }
