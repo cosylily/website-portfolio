@@ -17,54 +17,62 @@ export default function Displaywebsites() {
         <div className="leftsection">
           <div className="vidone individualvideos mb-5">
             <button onClick={displayOne}>
-              <video
-                src="lifeupdate.mov"
-                width="100%"
-                height="auto"
-                autoPlay
-                loop
-                muted="true"
-                playsinline
-                className={activeOne ? "displayvideo" : "displaynone"}
-              ></video>
-              <img
-                src="/updatepic.png"
-                alt="Look, this is my life update website!"
-                className={activeOne ? "displaynone" : "displayimg"}
-              />
+              <div className={activeOne ? "displayvideo" : "displaynone"}>
+                <video
+                  src="lifeupdate.mov"
+                  width="100%"
+                  height="auto"
+                  autoPlay
+                  loop
+                  muted="true"
+                  playsinline
+                ></video>
+              </div>
+              <div className={activeOne ? "displaynone" : "displayimg"}>
+                <img
+                  src="/updatepic.png"
+                  alt="Look, this is my life update website!"
+                />
+              </div>
             </button>
           </div>
           <div className="mb-5 vidtwo">
             <button onClick={displayTwo}>
-              <video
-                src="/tsurunefanpage-1.mov"
-                width="100%"
-                height="auto"
-                autoPlay
-                loop
-                muted="true"
-                playsinline
-                className="m-2"
-              ></video>
-              <img
-                src="/tsurunepic.png"
-                alt="Main page of Tsurune Page"
-                width="100%"
-              />
+              <div className={activeTwo ? "displayvideo" : "displaynone"}>
+                <video
+                  src="/tsurunefanpage-1.mov"
+                  width="100%"
+                  height="auto"
+                  autoPlay
+                  loop
+                  muted="true"
+                  playsinline
+                ></video>
+              </div>
+              <div className={activeTwo ? "displaynone" : "displayimg"}>
+                <img
+                  src="/tsurunepic.png"
+                  alt="Main page of Tsurune Page"
+                  width="100%"
+                />
+              </div>
             </button>
           </div>
           <div className="vidthree">
             <button onClick={displayThree}>
-              <video
-                src="/newpaperbirthdaytheme.mov"
-                width="100%"
-                height="auto"
-                autoPlay
-                loop
-                muted="true"
-                playsinline
-                className="mb-2"
-              ></video>
+              <div className={activeThree ? "displayvideo" : "displaynone"}>
+                <video
+                  src="/newpaperbirthdaytheme.mov"
+                  width="100%"
+                  height="auto"
+                  autoPlay
+                  loop
+                  muted="true"
+                  playsinline
+                  className="mb-2"
+                ></video>
+              </div>
+              <div className={activeThree ? "displaynone" : "displayimg"}></div>
               <img
                 src="/newspic.png"
                 alt="Main page of Birthcat Newspaper"
