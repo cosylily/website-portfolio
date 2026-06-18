@@ -13,7 +13,7 @@ export default function Displaywebsites() {
       <div className="firstsection">
         <div className="leftsection">
           <div className="vidone individualvideos mb-5">
-            <button>
+            <button onClick={displayOne}>
               <video
                 src="lifeupdate.mov"
                 width="100%"
@@ -27,7 +27,7 @@ export default function Displaywebsites() {
             </button>
           </div>
           <div className="mb-5 vidtwo">
-            <button>
+            <button onClick={displayTwo}>
               <img
                 src="/tsurunepic.png"
                 alt="Main page of Tsurune Page"

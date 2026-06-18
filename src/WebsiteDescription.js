@@ -2,7 +2,7 @@ import React from "react";
 import "./website.css";
 
 export default function Descp(props) {
-  if (props.show === "firstwebsite" || props.orthis === "update") {
+  if (props.show === "firstwebsite") {
     return (
       <div>
         <div className="webinfo">
@@ -83,7 +83,7 @@ export default function Descp(props) {
       </div>
     );
   }
-  if (props.orthis === "tsurune" || props.show === "secondwebiste") {
+  if (props.show === "secondwebiste") {
     return (
       <div className="secondsection">
         <h2 className="p-2 m-2">Tsurune Fan Page</h2>
@@ -169,7 +169,7 @@ export default function Descp(props) {
       </div>
     );
   }
-  if (props.show === "thirdwebsite" || props.orthis === "news") {
+  if (props.show === "thirdwebsite") {
     return (
       <div className="thirdsection">
         <h2 className="p-2 m-2">Newspaper themed birthday website</h2>
