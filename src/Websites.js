@@ -32,6 +32,7 @@ export default function Displaywebsites() {
                 <img
                   src="/updatepic.png"
                   alt="Look, this is my life update website!"
+                  width="100%"
                 />
               </div>
             </button>
