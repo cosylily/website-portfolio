@@ -6,9 +6,8 @@ export default function Descp(props) {
 
   if (props.show === "firstwebsite" || website === "update") {
     return (
-      <div className="firstsection">
+      <div>
         <div className="webinfo">
-          {" "}
           <div className="descriptions">
             <a
               href="syafsupdate.netlify.app"

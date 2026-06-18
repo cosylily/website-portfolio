@@ -1,6 +1,7 @@
 import React from "react";
+import Descp from "./WebsiteDescription";
 
-export default function Menu() {
+export default function Menu(props) {
   return (
     <div className="firstsection">
       <div className="leftsection">
@@ -38,7 +39,8 @@ export default function Menu() {
           </button>
         </div>
       </div>
-      <div className="webinfo"></div>
+
+      <Descp show={props.show} />
     </div>
   );
 }

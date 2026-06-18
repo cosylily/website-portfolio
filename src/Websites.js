@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 import "./App.css";
 import "./website.css";
-import Descp from "./WebsiteDescription.js";
+import Menu from "./WebsiteMenu.js";
 
 export default function Displaywebsites() {
   let [ready, setReady] = useState(false);
@@ -11,7 +11,7 @@ export default function Displaywebsites() {
   if (ready) {
     return (
       <div>
-        <Descp show={description} />
+        <Menu show={description} />
       </div>
     );
   } else {
