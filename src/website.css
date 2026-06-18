@@ -100,3 +100,14 @@ img {
 .button:hover a {
   color: black;
 }
+.displayvideo {
+  display: block;
+  margin: 20px;
+}
+.displayimg {
+  display: block;
+  margin: 20px;
+}
+.displaynone {
+  display: none;
+}

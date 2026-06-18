@@ -7,6 +7,9 @@ import Descp from "./WebsiteDescription.js";
 export default function Displaywebsites() {
   let [ready, setReady] = useState(false);
   let [description, setDescription] = useState();
+  let [activeOne, setActiveOne] = useState(false);
+  let [activeTwo, setActiveTwo] = useState(false);
+  let [activeThree, setActiveThree] = useState(false);
 
   if (ready) {
     return (
@@ -22,12 +25,27 @@ export default function Displaywebsites() {
                 loop
                 muted="true"
                 playsinline
-                className="m-2"
+                className={activeOne ? "displayvideo" : "displaynone"}
               ></video>
+              <img
+                src="/updatepic.png"
+                alt="Look, this is my life update website!"
+                className={activeOne ? "displaynone" : "displayimg"}
+              />
             </button>
           </div>
           <div className="mb-5 vidtwo">
             <button onClick={displayTwo}>
+              <video
+                src="/tsurunefanpage-1.mov"
+                width="100%"
+                height="auto"
+                autoPlay
+                loop
+                muted="true"
+                playsinline
+                className="m-2"
+              ></video>
               <img
                 src="/tsurunepic.png"
                 alt="Main page of Tsurune Page"
@@ -37,6 +55,16 @@ export default function Displaywebsites() {
           </div>
           <div className="vidthree">
             <button onClick={displayThree}>
+              <video
+                src="/newpaperbirthdaytheme.mov"
+                width="100%"
+                height="auto"
+                autoPlay
+                loop
+                muted="true"
+                playsinline
+                className="mb-2"
+              ></video>
               <img
                 src="/newspic.png"
                 alt="Main page of Birthcat Newspaper"
@@ -108,13 +136,22 @@ export default function Displaywebsites() {
   function displayOne() {
     setReady(true);
     setDescription("firstwebsite");
+    setActiveOne(true);
+    setActiveTwo(false);
+    setActiveThree(false);
   }
   function displayTwo() {
     setReady(true);
     setDescription("secondwebsite");
+    setActiveOne(false);
+    setActiveTwo(true);
+    setActiveThree(false);
   }
   function displayThree() {
     setReady(true);
     setDescription("thirdwebsite");
+    setActiveOne(false);
+    setActiveTwo(false);
+    setActiveThree(true);
   }
 }
