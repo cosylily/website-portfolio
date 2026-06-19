@@ -8,10 +8,11 @@ export default function Descp(props) {
         <div className="webinfo">
           <div className="descriptions">
             <a
-              href="syafsupdate.netlify.app"
+              href="https://syafsupdate.netlify.app"
               alt="Click here to visit the website!"
               className="weblink"
               target="_blank"
+              rel="noreferrer"
             >
               <h2 className="">Syaf's life update website</h2>
             </a>
@@ -87,7 +88,15 @@ export default function Descp(props) {
     return (
       <div>
         <div className="webinfo">
-          <h2 className="">Tsurune Fan Page</h2>
+          <a
+            href="https://tsurunefanpage.netlify.app"
+            alt="Click here to visit the website!"
+            className="weblink"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <h2 className="">Tsurune Fan Page</h2>
+          </a>
 
           <div className="descriptions">
             <h3>About website:</h3>
@@ -170,9 +179,17 @@ export default function Descp(props) {
     return (
       <div>
         <div className="webinfo">
-          <h2 className="p-2 m-2">Newspaper themed birthday website</h2>
-
           <div className="descriptions">
+            <a
+              href="https://birthdaycatnews.netlify.app"
+              alt="Click here to visit the website!"
+              className="weblink"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h2 className="">Newspaper themed birthday website</h2>
+            </a>
+
             <h3>About website:</h3>
             <p>
               While I was thinking hard on gifts for my friend's birthday, it
