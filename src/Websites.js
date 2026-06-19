@@ -16,7 +16,7 @@ export default function Displaywebsites() {
       <div className="firstsection">
         <div className="leftsection">
           <div className="vidone individualvideos mb-5">
-            <button onClick={displayOne}>
+            <button onClick={displayOne} className="vidbutton">
               <div className={activeOne ? "displayvideo" : "displaynone"}>
                 <video
                   src="lifeupdate.mov"
@@ -38,7 +38,7 @@ export default function Displaywebsites() {
             </button>
           </div>
           <div className="mb-5 vidtwo">
-            <button onClick={displayTwo}>
+            <button onClick={displayTwo} className="vidbutton">
               <div className={activeTwo ? "displayvideo" : "displaynone"}>
                 <video
                   src="/tsurunefanpage-1.mov"
@@ -60,7 +60,7 @@ export default function Displaywebsites() {
             </button>
           </div>
           <div className="vidthree">
-            <button onClick={displayThree}>
+            <button onClick={displayThree} className="vidbutton">
               <div className={activeThree ? "displayvideo" : "displaynone"}>
                 <video
                   src="/newpaperbirthdaytheme.mov"

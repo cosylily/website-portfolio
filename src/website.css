@@ -111,3 +111,7 @@ img {
 .displaynone {
   display: none;
 }
+.vidbutton {
+  border: 0px;
+  background-color: transparent;
+}
