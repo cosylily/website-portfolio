@@ -17,6 +17,7 @@ function App() {
           <div className="cloudtwo"></div>
           <div className="cloudthree"></div>
         </div>
+
         <div className="cloud">
           <div className="cloudone"></div>
           <div className="cloudtwo"></div>
@@ -28,7 +29,7 @@ function App() {
           <div className="cloudthree"></div>
         </div>
       </div>
-
+      <div className="space"></div>
       <div className="alltogether">
         <div className="toppage">
           <div className="title">
