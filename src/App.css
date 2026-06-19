@@ -123,11 +123,13 @@ p {
 }
 .abouts {
   font-size: 90px;
+  font-family: var(--title-font);
 }
 .me {
-  padding-top: 73px;
+  padding-top: 60px;
   margin-left: 10px;
-  font-size: 24px;
+  font-size: 30px;
+  font-family: var(--subtitle-font);
 }
 
 .aboutMe {
@@ -156,27 +158,31 @@ p {
   border-bottom-right-radius: 10px;
 }
 .website {
-  font-size: 24px;
+  font-size: 30px;
   line-height: 24px;
   text-align: center;
   max-width: 100px;
   margin: 0 auto;
-  padding-left: 220px;
+  padding-left: 200px;
+  font-family: var(--subtitle-font);
 }
 .collection {
   font-size: 90px;
   text-align: center;
   line-height: 90px;
+  font-family: var(--title-font);
 }
 
 .education,
 .certifications {
   font-size: 90px;
   line-height: 90px;
+  font-family: var(--title-font);
 }
 .and {
-  font-size: 24px;
+  font-size: 30px;
   line-height: 24px;
+  font-family: var(--subtitle-font);
 }
 .educationSection {
   margin-top: 100px;
