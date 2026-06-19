@@ -73,12 +73,13 @@ export default function Displaywebsites() {
                   className="mb-2"
                 ></video>
               </div>
-              <div className={activeThree ? "displaynone" : "displayimg"}></div>
-              <img
-                src="/newspic.png"
-                alt="Main page of Birthcat Newspaper"
-                width="100%"
-              />
+              <div className={activeThree ? "displaynone" : "displayimg"}>
+                <img
+                  src="/newspic.png"
+                  alt="Main page of Birthcat Newspaper"
+                  width="100%"
+                />
+              </div>
             </button>
           </div>
         </div>

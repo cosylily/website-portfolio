@@ -168,70 +168,66 @@ export default function Descp(props) {
   }
   if (props.show === "thirdwebsite") {
     return (
-      <div className="thirdsection">
-        <h2 className="p-2 m-2">Newspaper themed birthday website</h2>
-        <video
-          src="/newpaperbirthdaytheme.mov"
-          width="50%"
-          height="auto"
-          autoPlay
-          loop
-          muted="true"
-          playsinline
-          className="m-2"
-        ></video>
-        <div className="descriptions section ">
-          <h3>About website:</h3>
-          <p>
-            While I was thinking hard on gifts for my friend's birthday, it came
-            to me that building a website to celebrate her birthday would not be
-            a bad idea. (Of course, this website is not the only gift!) It was
-            not easy to consider the sections and theme for this website. Then
-            as I was browsing for ideas, it came to me that nothing is better
-            than telling how I appreciate her and include our memories in the
-            form of newspaper. That was how this website was coded. I included
-            her favourite online game as well, sudoku!
-          </p>
+      <div>
+        <div className="webinfo">
+          <h2 className="p-2 m-2">Newspaper themed birthday website</h2>
+
+          <div className="descriptions">
+            <h3>About website:</h3>
+            <p>
+              While I was thinking hard on gifts for my friend's birthday, it
+              came to me that building a website to celebrate her birthday would
+              not be a bad idea. (Of course, this website is not the only gift!)
+              It was not easy to consider the sections and theme for this
+              website. Then as I was browsing for ideas, it came to me that
+              nothing is better than telling how I appreciate her and include
+              our memories in the form of newspaper. That was how this website
+              was coded. I included her favourite online game as well, sudoku!
+            </p>
+          </div>
+          <div className="codinglanguage">
+            <h3>Languages used:</h3>
+            <p>HTML and light CSS</p>
+          </div>
+          <div className="designmethod">
+            <h3>Web design method:</h3> <p>Paper and Pen (Wireframe)</p>
+          </div>
+          <div className="sources">
+            <h3>Material sources:</h3>
+            <p>
+              XiaoHongShu for website structure, my own photo app for pictures.
+            </p>
+          </div>
+          <div className="challenges">
+            <h3>Challenges faced:</h3>
+            <ul>
+              <li>
+                <h4>Website structure</h4>
+                <p>
+                  It was challenging to code the website to fit a newspaper
+                  structure as I lack the time to think about the contents in
+                  detail. The length of the description next to the picture had
+                  to be controlled to fit the length of the picture.
+                </p>
+              </li>
+              <li>
+                <h4>Responsiveness</h4>
+                <p>
+                  Considering my friend will not have the time to open the
+                  website on a large screen, I had to consider how to make it
+                  look good in both screens. It took some time and I had to take
+                  some contents out to make the site look both in both screens.
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div className="button">
+            {" "}
+            <a href="https://github.com/cosylily/newspaperbirthdaytheme.git">
+              Go to GitHub for the code
+            </a>
+          </div>
         </div>
-        <div className="codinglanguage section">
-          <h3>Languages used:</h3>
-          <p>HTML and light CSS</p>
-        </div>
-        <div className="designmethod section">
-          <h3>Web design method:</h3> <p>Paper and Pen (Wireframe)</p>
-        </div>
-        <div className="sources section">
-          <h3>Material sources:</h3>
-          <p>
-            XiaoHongShu for website structure, my own photo app for pictures.
-          </p>
-        </div>
-        <div className="section challenges">
-          <h3>Challenges faced:</h3>
-          <ul>
-            <li>
-              <h4>Website structure</h4>
-              <p>
-                It was challenging to code the website to fit a newspaper
-                structure as I lack the time to think about the contents in
-                detail. The length of the description next to the picture had to
-                be controlled to fit the length of the picture.
-              </p>
-            </li>
-            <li>
-              <h4>Responsiveness</h4>
-              <p>
-                Considering my friend will not have the time to open the website
-                on a large screen, I had to consider how to make it look good in
-                both screens. It took some time and I had to take some contents
-                out to make the site look both in both screens.
-              </p>
-            </li>
-          </ul>
-        </div>
-        <a href="https://github.com/cosylily/newspaperbirthdaytheme.git">
-          Go to GitHub for the code
-        </a>
       </div>
     );
   }
