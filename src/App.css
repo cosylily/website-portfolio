@@ -211,6 +211,7 @@ p {
   color: #ffe1e6;
   background-color: black;
   border-color: black;
+  transition: all ease 1s;
 }
 footer {
   border: 1px solid black;
