@@ -93,6 +93,7 @@ p {
 .smallletters .name {
   font-size: 40px;
   margin-right: 20px;
+  font-family: var(--subtitle-font);
 }
 .smallletters .logo {
   border-radius: 10px;
@@ -100,6 +101,7 @@ p {
 .title .portfolio {
   font-size: 240px;
   line-height: 250px;
+  font-family: var(--title-font);
 }
 .section {
   margin: 200px 0;
