@@ -232,13 +232,7 @@ p {
   border-color: black;
   transition: all ease 1s;
 }
-footer {
-  border: 1px solid black;
-  border-bottom: 0px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
-  background-color: white;
-}
+
 .footertitle {
   display: flex;
   justify-content: space-around;
