@@ -1,5 +1,5 @@
 footer {
-  padding: 30px;
+  padding: 100px;
   background-image: linear-gradient(
     rgba(255, 255, 255, 0.4),
     rgba(255, 255, 255, 0.4)
@@ -14,10 +14,11 @@ footer {
   display: flex;
   justify-content: center;
   line-height: 60px;
+  margin-bottom: 60px;
 }
 .footertitle h2 {
   font-size: 60px !important;
-  margin-bottom: 60px;
+  font-family: "Stardos Stencil", system-ui;
 }
 .footertitle img {
   margin-left: 30px;
@@ -29,4 +30,9 @@ footer {
 }
 svg {
   margin: 0 50px;
+}
+.ending {
+  font-size: 30px !important;
+  padding-top: 50px;
+  margin-top: 10px;
 }

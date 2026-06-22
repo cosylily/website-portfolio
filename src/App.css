@@ -34,13 +34,6 @@
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.8);
 }
 
-h2 {
-  font-family: var(--title-font);
-  color: #122c4f;
-}
-h3 {
-  font-family: var(--subtitle-font);
-}
 p {
   font-family: var(--text-font);
 }
