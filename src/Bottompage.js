@@ -6,7 +6,17 @@ export default function Footerbottom() {
   return (
     <footer>
       <div>
-        <h2>Contact Me</h2>
+        <div className="text-center footertitle">
+          <h2>Contact Me</h2>{" "}
+          <img
+            src="/logoforportfolio.jpg"
+            alt="My own logo doodling"
+            height="60px"
+            width="auto"
+            className="logo"
+          />
+        </div>
+
         <div className="socmedlinks">
           <svg
             role="img"
