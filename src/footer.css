@@ -1,8 +1,8 @@
 footer {
   padding: 30px;
   background-image: linear-gradient(
-    rgba(255, 255, 255, 0.7),
-    rgba(255, 255, 255, 0.7)
+    rgba(255, 255, 255, 0.4),
+    rgba(255, 255, 255, 0.4)
   );
   background-position: center;
   background-repeat: none;
@@ -10,14 +10,11 @@ footer {
   border: 3px solid;
   border-radius: 50px;
 }
-.footercontent {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+.socmedlinks {
+  height: 60px;
+  display: flex;
+  justify-content: center;
 }
-.contentone {
-  text-align: left;
-}
-.bottomcontacts {
-  text-align: left;
-  padding-left: 50px;
+svg {
+  margin: 0 50px;
 }

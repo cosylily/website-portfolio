@@ -10,8 +10,8 @@
     rgba(252, 246, 245, 0.6) 28%,
     rgb(242, 198, 207) 37%,
     rgb(244, 198, 198) 63%,
-    rgb(197, 204, 130) 80%,
-    rgb(151, 172, 59) 100%
+    rgb(197, 204, 130) 75%,
+    rgb(151, 172, 59) 90%
   );
   background-position: center;
   background-repeat: none;
@@ -233,13 +233,6 @@ p {
   transition: all ease 1s;
 }
 
-.footertitle {
-  display: flex;
-  justify-content: space-around;
-  width: 30%;
-  margin: 0 auto;
-  padding: 20px;
-}
 li {
   text-align: start;
   padding: 10px 0;
