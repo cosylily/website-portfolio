@@ -1,5 +1,19 @@
+:root {
+  --title-font: "Stardos Stencil", system-ui;
+  --subtitle-font: "Cormorant Infant", serif;
+  --text-font: "Telex", sans-serif;
+  --soft-pink: #ffe1e6;
+}
 p {
   font-size: 18px;
+}
+h2 {
+  font-family: var(--title-font);
+  font-size: 30px;
+}
+h3 {
+  font-family: var(--subtitle-font);
+  font-size: 26px;
 }
 .vidone,
 .vidtwo,
