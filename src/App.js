@@ -64,31 +64,35 @@ function App() {
                   muted="true"
                   playsinline
                 ></video>
-                <p>
-                  {" "}
-                  Hello World! My name is Syafiqah, an aspiring junior website
-                  developer from Malaysia.
-                </p>
               </div>
 
               <div className="aboutIntro">
-                <p>
-                  I graduated from University of Manchester under the degree of
-                  Politics, Philosophy and Economics. For people whom may
-                  wonder, I prefer Philosophy the most followed by Economics
-                  (tired of this question if I am being honest {">_<"}
-                  ). I love crocheting and do traditional Japanese archery on
-                  Sundays.
-                </p>
-                <video
-                  src="/horizontalkyudo.mov"
-                  width="100%"
-                  height="auto"
-                  autoPlay
-                  loop
-                  muted="true"
-                  playsinline
-                ></video>
+                <ul>
+                  <li>
+                    <p>Syafiqah Dayana Binti Borhan</p>
+                  </li>
+                  <li>
+                    <a href="mailto:syafiqah.borhan1205@gmail.com">
+                      syafiqah.borhan1205@gmail.com
+                    </a>
+                  </li>
+                  <li>
+                    <p>
+                      {" "}
+                      Git Hub Profile:{" "}
+                      <a href="https://github.com/cosylily">cosylily</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>University of Manchester</p>
+                  </li>
+                  <li>
+                    <p>Coding Languages: HTML, CSS, JavaScript and React.js</p>
+                  </li>
+                  <li>
+                    <p>Hobbies: Kyudo and Crocheting</p>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
