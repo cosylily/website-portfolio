@@ -73,7 +73,17 @@ export default function Footerbottom() {
         </div>
       </div>
       <div className="ending text-center">
-        <p>This page is coded using React.js, by Syafiqah 🐻‍❄️</p>
+        <p>
+          This{" "}
+          <a
+            href="https://github.com/cosylily/website-portfolio"
+            target="_blank"
+            rel="noreferrer"
+          >
+            page
+          </a>{" "}
+          is coded using React.js, by Syafiqah 🐻‍❄️
+        </p>
       </div>
     </footer>
   );
