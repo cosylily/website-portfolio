@@ -123,11 +123,6 @@ function App() {
                 University of Manchester
               </p>
               <p>2024-2025 Front-end Diploma with Shecodes</p>
-              <p>
-                2025-2026 Prompt Engineering with TalentLabs MyMahir FSTC GBS
-                Train-and-Place Programme 2025 (Incomplete)
-              </p>
-              <p>2025-2026 Digital Marketing with Acadium (Incomplete)</p>
             </div>
 
             <button onClick={handleActive} className="certbutton">
