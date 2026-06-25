@@ -72,19 +72,23 @@ function App() {
                     <p>Syafiqah Dayana Binti Borhan</p>
                   </li>
                   <li>
-                    <a href="mailto:syafiqah.borhan1205@gmail.com">
-                      syafiqah.borhan1205@gmail.com
-                    </a>
+                    <p>
+                      <a href="mailto:syafiqah.borhan1205@gmail.com">
+                        syafiqah.borhan1205@gmail.com
+                      </a>
+                    </p>
                   </li>
                   <li>
                     <p>
-                      {" "}
                       Git Hub Profile:{" "}
                       <a href="https://github.com/cosylily">cosylily</a>
                     </p>
                   </li>
                   <li>
                     <p>University of Manchester</p>
+                  </li>
+                  <li>
+                    <p>BA(Hons) Politics, Philosophy and Economics</p>
                   </li>
                   <li>
                     <p>Coding Languages: HTML, CSS, JavaScript and React.js</p>
