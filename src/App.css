@@ -19,11 +19,12 @@
   padding-top: 50px;
 }
 .space {
-  width: 100%;
+  max-width: 100%;
   height: 20px;
 }
 .alltogether {
-  padding: 50px;
+  max-width: 100%;
+  padding: 5%;
   background-image: linear-gradient(
     rgba(255, 255, 255, 0.5),
     rgba(255, 255, 255, 0.5)
@@ -252,4 +253,23 @@ li a {
 .maintitle {
   font-size: 80px;
   padding: 30px;
+}
+
+@media (max-width: 900px) {
+  .smallletters {
+    display: block;
+    text-align: center;
+  }
+  .smallletters img {
+    margin-bottom: 10px;
+  }
+  .smallletters .name {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  .title .portfolio {
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+  }
 }
