@@ -114,13 +114,14 @@ p {
 .aboutTitle {
   display: flex;
   justify-content: center;
+  line-height: 30px;
 }
 .abouts {
   font-size: 90px;
   font-family: var(--title-font);
 }
 .me {
-  padding-top: 60px;
+  line-height: 30px;
   margin-left: 10px;
   font-size: 30px;
   font-family: var(--subtitle-font);
@@ -255,7 +256,7 @@ li a {
   padding: 30px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
   .smallletters {
     display: block;
     text-align: center;
@@ -271,5 +272,8 @@ li a {
     font-size: 50px;
     line-height: 50px;
     text-align: center;
+  }
+  .abouts {
+    font-size: 50px;
   }
 }
