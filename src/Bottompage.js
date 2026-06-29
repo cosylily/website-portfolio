@@ -11,9 +11,8 @@ export default function Footerbottom() {
           <img
             src="/logoforportfolio.jpg"
             alt="My own logo doodling"
-            height="40px"
+            height=""
             width="auto"
-            className="logo"
           />
         </div>
 

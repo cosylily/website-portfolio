@@ -13,7 +13,7 @@ footer {
 .footertitle {
   display: flex;
   justify-content: center;
-  line-height: 5vw;
+  height: 5vw;
   margin-bottom: 60px;
 }
 .footertitle h2 {
@@ -21,7 +21,8 @@ footer {
   font-size: 5vw;
 }
 .footertitle img {
-  margin-left: 30px;
+  height: 100%;
+  margin-left: 1vw;
 }
 .socmedlinks {
   height: 60px;
