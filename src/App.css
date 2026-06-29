@@ -142,25 +142,15 @@
 .aboutMe {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  margin: 50px 0;
 }
 .aboutIntro a {
   font-size: 3vw;
 }
 .aboutIntro {
-  padding: 20px;
   max-height: max-content;
-  margin-top: 50px;
-}
-.aboutIntro video {
-  border-bottom-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 }
 
-.aboutVideo {
-  padding: 20px;
-}
 .aboutVideo video {
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;

@@ -69,10 +69,11 @@ function App() {
               <div className="aboutIntro content">
                 <ul>
                   <li>
-                    <p>Syafiqah Dayana Binti Borhan</p>
+                    <p>Name: Syafiqah Dayana Binti Borhan</p>
                   </li>
                   <li>
                     <p>
+                      Email:{" "}
                       <a href="mailto:syafiqah.borhan1205@gmail.com">
                         syafiqah.borhan1205@gmail.com
                       </a>
@@ -85,10 +86,7 @@ function App() {
                     </p>
                   </li>
                   <li>
-                    <p>University of Manchester</p>
-                  </li>
-                  <li>
-                    <p>BA(Hons) Politics, Philosophy and Economics</p>
+                    <p>Degree: BA(Hons) Politics, Philosophy and Economics</p>
                   </li>
                   <li>
                     <p>Coding Languages: HTML, CSS, JavaScript and React.js</p>
