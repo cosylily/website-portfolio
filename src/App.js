@@ -49,8 +49,8 @@ function App() {
         <div>
           <div className="aboutSection section">
             <div className="aboutTitle">
-              <p className="abouts">About</p>
-              <p className="me">Me</p>
+              <p className="abouts bigwords">About</p>
+              <p className="me smallwords">Me</p>
             </div>
 
             <div className="aboutMe">
@@ -102,8 +102,8 @@ function App() {
           </div>
           <div className="websiteSection section">
             <div className="websiteTitle">
-              <p className="website">Website</p>
-              <p className="collection">Collection</p>
+              <p className="website smallwords">Website</p>
+              <p className="collection bigwords">Collection</p>
             </div>
 
             <div className="websiteVids">
@@ -112,9 +112,9 @@ function App() {
           </div>
           <div className="educationSection section">
             <div className="educationTitle">
-              <p className="education">Education</p>
-              <p className="and text-center">&</p>
-              <p className="certifications text-end">Certifications</p>
+              <p className="education bigwords">Education</p>
+              <p className="and text-center smallwords">&</p>
+              <p className="certifications text-end bigwords">Certifications</p>
             </div>
             <div className="listofedu">
               <p>2020-2022 A-levels in Kolej Mara Seremban</p>
