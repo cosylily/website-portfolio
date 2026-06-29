@@ -90,20 +90,22 @@ p {
 .smallletters {
   display: flex;
   justify-content: left;
-  line-height: 40px;
-  margin-left: 20px;
+  height: 7vw;
+  margin: 1vw;
 }
 .smallletters .name {
-  font-size: 40px;
-  margin-right: 20px;
+  font-size: 5vw;
   font-family: var(--subtitle-font);
 }
-.smallletters .logo {
+.smallletters img {
   border-radius: 10px;
+  height: 70%;
+  width: auto;
+  margin: 1vw;
 }
 .title .portfolio {
   font-size: 15vw;
-  line-height: 250px;
+  line-height: 15vw;
   font-family: var(--title-font);
 }
 .section {

@@ -38,8 +38,8 @@ function App() {
               <img
                 src="/logoforportfolio.jpg"
                 alt="My own logo doodling"
-                height="40px"
-                width="auto"
+                height=""
+                width=""
                 className="logo"
               />
             </div>
