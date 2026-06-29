@@ -7,11 +7,11 @@ export default function Footerbottom() {
     <footer>
       <div>
         <div className="text-center footertitle">
-          <h2>Contact Me</h2>{" "}
+          <h2 className="">Contact Me</h2>{" "}
           <img
             src="/logoforportfolio.jpg"
             alt="My own logo doodling"
-            height="60px"
+            height="40px"
             width="auto"
             className="logo"
           />

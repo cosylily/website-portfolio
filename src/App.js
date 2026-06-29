@@ -66,7 +66,7 @@ function App() {
                 ></video>
               </div>
 
-              <div className="aboutIntro">
+              <div className="aboutIntro content">
                 <ul>
                   <li>
                     <p>Syafiqah Dayana Binti Borhan</p>
@@ -116,7 +116,7 @@ function App() {
               <p className="and text-center smallwords">&</p>
               <p className="certifications text-end bigwords">Certifications</p>
             </div>
-            <div className="listofedu">
+            <div className="listofedu content">
               <p>2020-2022 A-levels in Kolej Mara Seremban</p>
               <p>
                 2022-2025 BA (Hons) Politics, Philosophy and Economics in

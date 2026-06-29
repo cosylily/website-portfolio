@@ -13,12 +13,12 @@ footer {
 .footertitle {
   display: flex;
   justify-content: center;
-  line-height: 60px;
+  line-height: 5vw;
   margin-bottom: 60px;
 }
 .footertitle h2 {
-  font-size: 60px !important;
   font-family: "Stardos Stencil", system-ui;
+  font-size: 5vw;
 }
 .footertitle img {
   margin-left: 30px;
