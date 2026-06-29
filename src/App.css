@@ -58,27 +58,25 @@ p {
 }
 
 .cloudone {
-  padding: 10px;
-  height: 60px;
-  width: 70px;
-  margin-top: 20px;
+  height: 10vh;
+  width: 5vw;
+  margin-top: 3vh;
   border-top-left-radius: 70px;
   border-bottom-left-radius: 20px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 .cloudtwo {
-  padding: 15px;
-  height: 80px;
-  width: 150px;
+  height: 13vh;
+  width: 10vw;
   border-top-left-radius: 28px;
   border-top-right-radius: 38px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
 }
 .cloudthree {
-  padding: 10px;
-  height: 50px;
-  width: 50px;
-  margin-top: 30px;
+  height: 9vh;
+  width: 6vw;
+  margin-top: 4vh;
+
   border-top-right-radius: 60px;
   border-bottom-right-radius: 20px;
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
@@ -104,7 +102,7 @@ p {
   border-radius: 10px;
 }
 .title .portfolio {
-  font-size: 240px;
+  font-size: 15vw;
   line-height: 250px;
   font-family: var(--title-font);
 }
@@ -256,24 +254,11 @@ li a {
   padding: 30px;
 }
 
-@media (max-width: 800px) {
-  .smallletters {
-    display: block;
-    text-align: center;
+@media (max-width: 1000px) {
+  .clouds {
+    display: none;
   }
-  .smallletters img {
-    margin-bottom: 10px;
-  }
-  .smallletters .name {
-    font-size: 30px;
-    line-height: 30px;
-  }
-  .title .portfolio {
-    font-size: 50px;
-    line-height: 50px;
-    text-align: center;
-  }
-  .abouts {
-    font-size: 50px;
+  .App {
+    padding-top: 20px;
   }
 }
