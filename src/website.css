@@ -5,15 +5,19 @@
   --soft-pink: #ffe1e6;
 }
 p {
-  font-size: 18px;
+  font-size: 1vw;
 }
 h2 {
   font-family: var(--title-font);
-  font-size: 30px;
+  font-size: 2vw;
 }
 h3 {
   font-family: var(--subtitle-font);
-  font-size: 26px;
+  font-size: 2vw;
+}
+h4 {
+  font-family: var(--subtitle-font);
+  font-size: 2vw;
 }
 .vidone,
 .vidtwo,
@@ -97,7 +101,7 @@ img {
 }
 .button {
   border: 1px solid black;
-  padding: 10px;
+  padding: 1vw;
   width: max-content;
   border-radius: 10px;
   margin: 0 auto;
@@ -106,6 +110,7 @@ img {
 .button a {
   color: rgb(242, 198, 207);
   text-decoration: none;
+  font-size: 1vw;
 }
 .button:hover {
   cursor: pointer;
@@ -130,4 +135,15 @@ img {
 .vidbutton {
   border: 0px;
   background-color: transparent;
+}
+@media (max-width: 1000px) {
+  .firstsection {
+    display: block;
+  }
+  .leftsection {
+    display: flex;
+  }
+  .webinfo {
+    margin-left: 0px;
+  }
 }
