@@ -217,6 +217,7 @@ ul {
 .certbutton {
   padding: 10px;
   border-radius: 10px;
+  color: black;
   background-color: #ffe1e6;
   border-color: #ffe1e6;
 }
