@@ -73,7 +73,6 @@ h4 {
 .webinfo {
   overflow-y: scroll;
   scrollbar-width: none;
-  height: 1000px;
   background-image: linear-gradient(
     rgba(255, 255, 255, 0.5),
     rgba(255, 255, 255, 0.5)
@@ -94,6 +93,7 @@ h4 {
 }
 .challenges li {
   list-style-type: decimal;
+  font-size: 2vw;
   padding: 0px !important;
 }
 img {
