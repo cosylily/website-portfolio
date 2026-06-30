@@ -166,8 +166,11 @@ export default function Descp(props) {
               </li>
             </ul>
           </div>
-          <div className="button">
-            <a href="https://github.com/cosylily/tsurune-lily.git">
+          <div class="">
+            <a
+              href="https://github.com/cosylily/tsurune-lily.git"
+              className="button"
+            >
               Go to GitHub for the code
             </a>
           </div>

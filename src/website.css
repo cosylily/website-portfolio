@@ -102,25 +102,27 @@ img {
 .button {
   border: 1px solid black;
   padding: 1vw;
-  width: max-content;
+  max-height: max-content;
   border-radius: 10px;
-  margin: 0 auto;
+  margin: 2vw;
   background-color: black;
-}
-.button a {
   color: rgb(242, 198, 207);
   text-decoration: none;
   font-size: 1vw;
+  line-height: 1vw;
+  font-family: var(--text-font);
+  display: flex;
+  justify-content: center;
 }
+
 .button:hover {
   cursor: pointer;
   background-color: rgb(242, 198, 207);
   border-color: rgb(242, 198, 207);
-}
-.button:hover a {
   color: black;
   transition: all ease 1s;
 }
+
 .displayvideo {
   display: block;
   margin: 20px;
@@ -157,5 +159,10 @@ img {
   }
   p {
     font-size: 2vw;
+  }
+
+  .button {
+    font-size: 2vw;
+    line-height: 2vw !important;
   }
 }
