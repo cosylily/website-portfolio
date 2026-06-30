@@ -32,6 +32,7 @@
   font-size: 2vw;
   color: black;
   text-decoration: none;
+  margin-bottom: 1vw;
 }
 .content p a:hover {
   color: var(--soft-pink);
@@ -124,7 +125,7 @@
   font-family: var(--title-font);
 }
 .section {
-  margin: 200px 0;
+  margin: 20vw 0;
 }
 .aboutTitle {
   display: flex;
@@ -189,10 +190,10 @@ ul {
 
 .display {
   display: block;
-  height: 500px;
+  height: 30vw;
   scroll-behavior: smooth;
   overflow-y: scroll;
-  padding: 50px;
+  padding: 2vw;
   margin: 20px 0;
   background-image: linear-gradient(
     rgba(255, 255, 255, 0.6),
