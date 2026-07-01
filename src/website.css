@@ -99,15 +99,19 @@ h4 {
 img {
   border-radius: 10px;
 }
+.buttonwidth {
+  width: max-content;
+}
 .button {
   border: 1px solid black;
-  padding: 1vw;
+  padding: 2vw;
+  width: max-content;
   max-height: max-content;
   border-radius: 10px;
-  margin: 2vw;
+  margin: 0 auto;
   background-color: black;
-  color: rgb(242, 198, 207);
-  text-decoration: none;
+  color: rgb(242, 198, 207) !important;
+  text-decoration: none !important;
   font-size: 1vw;
   line-height: 1vw;
   font-family: var(--text-font);
