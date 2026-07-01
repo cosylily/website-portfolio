@@ -23,11 +23,12 @@ h4 {
 .vidone,
 .vidtwo,
 .vidthree {
-  padding: 20px;
+  margin-bottom: 20px;
   background-image: linear-gradient(
     rgba(255, 255, 255, 0.5),
     rgba(255, 255, 255, 0.5)
   );
+  padding: 20px;
 }
 .vidone,
 .vidthree {
@@ -43,7 +44,11 @@ h4 {
 }
 .videobutton {
   border: 0px;
-  background-color: transparent;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  );
+  padding: 20px;
 }
 .rowone,
 .rowtwo,
@@ -72,8 +77,6 @@ h4 {
   margin: 50px 0;
 }
 .webinfo {
-  overflow-y: scroll;
-  scrollbar-width: none;
   background-image: linear-gradient(
     rgba(255, 255, 255, 0.5),
     rgba(255, 255, 255, 0.5)
@@ -149,7 +152,8 @@ img {
     display: block;
   }
   .leftsection {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .webinfo {
     margin-left: 0px;
@@ -170,5 +174,21 @@ img {
   .button {
     font-size: 2vw;
     line-height: 2vw !important;
+  }
+  .webinfo {
+    padding: 2vw;
+    border-radius: 50px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  .vidone,
+  .vidtwo,
+  .vidthree {
+    border-radius: 20px;
+    padding: 0px;
+  }
+  .displayimg,
+  .displayvideo {
+    margin: 0px;
   }
 }

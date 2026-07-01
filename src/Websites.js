@@ -15,7 +15,7 @@ export default function Displaywebsites() {
     return (
       <div className="firstsection">
         <div className="leftsection">
-          <div className="vidone individualvideos mb-5">
+          <div className="vidone individualvideos">
             <button onClick={displayOne} className="vidbutton">
               <div className={activeOne ? "displayvideo" : "displaynone"}>
                 <video
@@ -37,7 +37,7 @@ export default function Displaywebsites() {
               </div>
             </button>
           </div>
-          <div className="mb-5 vidtwo">
+          <div className="vidtwo">
             <button onClick={displayTwo} className="vidbutton">
               <div className={activeTwo ? "displayvideo" : "displaynone"}>
                 <video
