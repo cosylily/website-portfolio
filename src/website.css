@@ -6,6 +6,7 @@
 }
 p {
   font-size: 1vw;
+  font-family: var(--text-font);
 }
 h2 {
   font-family: var(--title-font);
@@ -93,6 +94,7 @@ h4 {
 }
 .challenges li {
   list-style-type: decimal;
+  font-family: var(--subtitle-font);
   font-size: 2vw;
   padding: 0px !important;
 }
