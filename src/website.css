@@ -44,11 +44,7 @@ h4 {
 }
 .videobutton {
   border: 0px;
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.5),
-    rgba(255, 255, 255, 0.5)
-  );
-  padding: 20px;
+  background-color: transparent;
 }
 .rowone,
 .rowtwo,
@@ -104,9 +100,7 @@ h4 {
 img {
   border-radius: 10px;
 }
-.buttonwidth {
-  width: max-content;
-}
+
 .button {
   border: 1px solid black;
   padding: 2vw;
@@ -143,17 +137,14 @@ img {
 .displaynone {
   display: none;
 }
-.vidbutton {
-  border: 0px;
-  background-color: transparent;
-}
+
 @media (max-width: 1000px) {
   .firstsection {
     display: block;
   }
   .leftsection {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-evenly;
   }
   .webinfo {
     margin-left: 0px;
@@ -189,6 +180,6 @@ img {
   }
   .displayimg,
   .displayvideo {
-    margin: 0px;
+    margin: 0px !important;
   }
 }
