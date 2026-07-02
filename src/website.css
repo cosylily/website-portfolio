@@ -146,9 +146,6 @@ img {
     display: flex;
     justify-content: space-evenly;
   }
-  .webinfo {
-    margin-left: 0px;
-  }
   h2 {
     font-size: 3vw;
   }
@@ -167,7 +164,8 @@ img {
     line-height: 2vw !important;
   }
   .webinfo {
-    padding: 2vw;
+    padding: 5vw;
+    margin-left: 0px;
     border-radius: 50px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
