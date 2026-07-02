@@ -215,6 +215,7 @@ ul {
   display: block;
 }
 .certbutton {
+  font-size: 2vw;
   padding: 10px;
   border-radius: 10px;
   color: black;
