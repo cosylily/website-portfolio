@@ -216,6 +216,7 @@ ul {
 }
 .certbutton {
   font-size: 2vw;
+  font-family: var(--text-font);
   padding: 10px;
   border-radius: 10px;
   color: black;
@@ -239,5 +240,11 @@ ul {
   }
   .App {
     padding-top: 20px;
+  }
+  .alltogether {
+    padding: 3vw;
+  }
+  .listofedu {
+    padding: 3vw 0;
   }
 }
